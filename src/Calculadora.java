@@ -81,6 +81,19 @@ public class Calculadora extends JFrame {
         setVisible(true);
         //NUMEROS (BOTONES)
 
+        Cero.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (comenzar == true) {
+                    entrada.setText(" ");
+                    entrada.setText("0");
+                    comenzar = false;
+                } else {
+                    entrada.setText(entrada.getText() + "0");
+                }
+            }
+        });
+
         Uno.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -114,9 +127,8 @@ public class Calculadora extends JFrame {
                     entrada.setText(" ");
                     entrada.setText("3");
                     comenzar = false;
-                }
-                else{
-                    entrada.setText(entrada.getText()+"3");
+                } else {
+                    entrada.setText(entrada.getText() + "3");
                 }
             }
 
@@ -129,9 +141,8 @@ public class Calculadora extends JFrame {
                     entrada.setText(" ");
                     entrada.setText("4");
                     comenzar = false;
-                }
-                else{
-                    entrada.setText(entrada.getText()+"4");
+                } else {
+                    entrada.setText(entrada.getText() + "4");
                 }
             }
 
@@ -143,19 +154,82 @@ public class Calculadora extends JFrame {
                     entrada.setText(" ");
                     entrada.setText("5");
                     comenzar = false;
-                }
-                else{
-                    entrada.setText(entrada.getText()+"5");
+                } else {
+                    entrada.setText(entrada.getText() + "5");
                 }
             }
-            
+
+        });
+        Seis.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (comenzar == true) {
+                    entrada.setText(" ");
+                    entrada.setText("6");
+                    comenzar = false;
+                } else {
+                    entrada.setText(entrada.getText() + "6");
+                }
+
+            }
+        });
+        Siete.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (comenzar == true) {
+                    entrada.setText(" ");
+                    entrada.setText("7");
+                    comenzar = false;
+                } else {
+                    entrada.setText(entrada.getText() + "7");
+                }
+            }
+
+        });
+        Ocho.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (comenzar == true) {
+                    entrada.setText(" ");
+                    entrada.setText("8");
+                    comenzar = false;
+                } else {
+                    entrada.setText(entrada.getText() + "8");
+                }
+            }
+
+        });
+        Nueve.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (comenzar == true) {
+                    entrada.setText(" ");
+                    entrada.setText("9");
+                    comenzar = false;
+                } else {
+                    entrada.setText(entrada.getText() + "9");
+                }
+
+            }
+        });
+
+
+        Punto.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if(entrada.getText().contains(".")){
+
+                }
+                else{
+                    entrada.setText(entrada.getText() + ".");
+                }
+            }
         });
     }
 
 
+    public static void main(String[] args) {
+        Calculadora calculadora = new Calculadora();
+    }
 
-public static void main(String[] args) {
-
-    Calculadora calculadora = new Calculadora();
-}
 }
