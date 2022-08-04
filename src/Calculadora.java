@@ -6,39 +6,40 @@ public class Calculadora extends JFrame {
     private JTextArea entrada;
     private JButton MSButton1;
     private JButton nButton;
-    private JButton tanButton;
+    private JButton Tangente;
     private JButton cButton1;
-    private JButton a7Button;
-    private JButton a0Button1;
-    private JButton a1Button;
+    private JButton Siete;
+    private JButton Cero;
+    private JButton Uno;
     private JButton tan1Button;
-    private JButton a4Button;
+    private JButton Cuatro;
     private JButton expButton1;
-    private JButton a9Button;
-    private JButton a6Button;
-    private JButton a3Button;
-    private JButton a0Button;
-    private JButton πButton1;
+    private JButton Nueve;
+    private JButton Seis;
+    private JButton Tres;
+    private JButton CParentesis;
+    private JButton Pi;
     private JButton xButton;
     private JButton tan1Button1;
     private JButton logButton1;
-    private JButton button22;
+    private JButton Porcentaje;
     private JButton xYButton;
-    private JButton button25;
+    private JButton AParentesis;
     private JButton CEButton1;
-    private JButton a8Button;
-    private JButton a5Button;
-    private JButton a2Button;
-    private JButton button30;
-    private JButton sinButton1;
+    private JButton Ocho;
+    private JButton Cinco;
+    private JButton Dos;
+    private JButton Punto;
+    private JButton Seno;
     private JButton sin1Button;
     private JButton mButton2;
     private JButton MCButton1;
-    private JButton xButton2;
-    private JButton cosButton1;
+    private JButton xButton4;
+    private JButton Coseno;
     private JButton cos1Button;
     private JButton mButton3;
     private JButton MRButton1;
+
     private JButton xButton3;
     private JButton xButton1;
     private JButton button3;
@@ -49,6 +50,16 @@ public class Calculadora extends JFrame {
     private JButton button9;
 
     private JButton button1;
+
+    private JButton Cubo;
+    private JButton Cuadrado;
+    private JButton RaizCuadrada;
+    private JButton RaizCubica;
+    private JButton Division;
+    private JButton Multiplicacion;
+    private JButton Resta;
+    private JButton Suma;
+    private JButton Igual;
     private JButton a1XButton;
     private JButton a10XButton;
     private JButton eButton;
@@ -69,7 +80,8 @@ public class Calculadora extends JFrame {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
         //NUMEROS (BOTONES)
-        a1Button.addActionListener(new ActionListener() {
+
+        Uno.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if (comenzar == true) {
@@ -79,11 +91,11 @@ public class Calculadora extends JFrame {
                 }
                 else{
                     entrada.setText(entrada.getText()+"1");
-                    }
                 }
+            }
 
         });
-        a2Button.addActionListener(new ActionListener() {
+        Dos.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if (comenzar == true) {
@@ -96,12 +108,26 @@ public class Calculadora extends JFrame {
                 }
             }
 
-        }
+        });
+        Tres.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (comenzar == true) {
+                    entrada.setText(" ");
+                    entrada.setText("3");
+                    comenzar = false;
+                }
+                else{
+                    entrada.setText(entrada.getText()+"3");
+                }
+            }
+            }
         });
     }
 
 
 public static void main(String[] args) {
+
     Calculadora calculadora = new Calculadora();
 }
 }
