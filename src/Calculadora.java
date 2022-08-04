@@ -45,6 +45,7 @@ public class Calculadora extends JFrame {
     private JButton xButton5;
     private JButton button8;
     private JButton button9;
+
     private JButton button1;
     private JButton a1XButton;
     private JButton a10XButton;
@@ -54,7 +55,7 @@ public class Calculadora extends JFrame {
     public Calculadora() {
 
 
-        setTitle("CONVERSOR");
+        setTitle("CALCULADORA");
         setSize(500, 300);
         setContentPane(mainPanel);
 
@@ -62,5 +63,11 @@ public class Calculadora extends JFrame {
         setVisible(true);
 
 
-    }
+
+}
+
+
+public static void main(String[] args) {
+    Calculadora calculadora = new Calculadora();
+}
 }
