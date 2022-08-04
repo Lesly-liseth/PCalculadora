@@ -27,7 +27,6 @@ public class Calculadora extends JFrame {
     private JButton AParentesis;
     private JButton CEButton1;
     private JButton Ocho;
-    private JButton Cinco;
     private JButton Dos;
     private JButton Punto;
     private JButton Seno;
@@ -49,7 +48,7 @@ public class Calculadora extends JFrame {
     private JButton button8;
     private JButton button9;
 
-    private JButton button1;
+    private JButton Cinco;
 
     private JButton Cubo;
     private JButton Cuadrado;
