@@ -225,7 +225,20 @@ public class Calculadora extends JFrame {
                 }
             }
         });
+        Suma.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                igual = true;
+                comenzar = true;
+                if(op1 == true){
+                    v1 = Double.parseDouble(entrada.getText());
+
+                }
+            }
+        });
     }
+
+
 
 
     public static void main(String[] args) {
