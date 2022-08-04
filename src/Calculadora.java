@@ -1,7 +1,7 @@
 import javax.swing.*;
 
-public class Calculadora {
-    private JTextArea textArea1;
+public class Calculadora extends JFrame {
+    private JTextArea entrada;
     private JButton MSButton1;
     private JButton nButton;
     private JButton tanButton;
@@ -49,4 +49,18 @@ public class Calculadora {
     private JButton a1XButton;
     private JButton a10XButton;
     private JButton eButton;
+    private JPanel mainPanel;
+
+    public Calculadora() {
+
+
+        setTitle("CONVERSOR");
+        setSize(500, 300);
+        setContentPane(mainPanel);
+
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setVisible(true);
+
+
+    }
 }
