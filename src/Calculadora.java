@@ -1,4 +1,6 @@
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Calculadora extends JFrame {
     private JTextArea entrada;
@@ -52,19 +54,51 @@ public class Calculadora extends JFrame {
     private JButton eButton;
     private JPanel mainPanel;
 
+
+    // VARIABLES
+    private boolean igual, comenzar = true, op1, op2;
+    private double x, y, z, mem = 0, resultado, v1, v2;
+    private String cad, fun, tpoperacion;
+
     public Calculadora() {
 
-
         setTitle("CALCULADORA");
-        setSize(500, 300);
+        setSize(700, 300);
+        setLocationRelativeTo(null);
         setContentPane(mainPanel);
-
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
+        //NUMEROS (BOTONES)
+        a1Button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (comenzar == true) {
+                    entrada.setText(" ");
+                    entrada.setText("1");
+                    comenzar = false;
+                }
+                else{
+                    entrada.setText(entrada.getText()+"1");
+                    }
+                }
 
+        });
+        a2Button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (comenzar == true) {
+                    entrada.setText(" ");
+                    entrada.setText("2");
+                    comenzar = false;
+                }
+                else{
+                    entrada.setText(entrada.getText()+"2");
+                }
+            }
 
-
-}
+        }
+        });
+    }
 
 
 public static void main(String[] args) {
