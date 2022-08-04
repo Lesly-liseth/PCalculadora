@@ -63,6 +63,7 @@ public class Calculadora extends JFrame {
     private JButton a10XButton;
     private JButton eButton;
     private JPanel mainPanel;
+    private JTextField salida;
 
 
     // VARIABLES
