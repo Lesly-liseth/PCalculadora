@@ -88,9 +88,8 @@ public class Calculadora extends JFrame {
                     entrada.setText(" ");
                     entrada.setText("1");
                     comenzar = false;
-                }
-                else{
-                    entrada.setText(entrada.getText()+"1");
+                } else {
+                    entrada.setText(entrada.getText() + "1");
                 }
             }
 
@@ -102,9 +101,8 @@ public class Calculadora extends JFrame {
                     entrada.setText(" ");
                     entrada.setText("2");
                     comenzar = false;
-                }
-                else{
-                    entrada.setText(entrada.getText()+"2");
+                } else {
+                    entrada.setText(entrada.getText() + "2");
                 }
             }
 
@@ -121,9 +119,39 @@ public class Calculadora extends JFrame {
                     entrada.setText(entrada.getText()+"3");
                 }
             }
+
+
+        });
+        Cuatro.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (comenzar == true) {
+                    entrada.setText(" ");
+                    entrada.setText("4");
+                    comenzar = false;
+                }
+                else{
+                    entrada.setText(entrada.getText()+"4");
+                }
             }
+
+        });
+        Cinco.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (comenzar == true) {
+                    entrada.setText(" ");
+                    entrada.setText("5");
+                    comenzar = false;
+                }
+                else{
+                    entrada.setText(entrada.getText()+"5");
+                }
+            }
+            
         });
     }
+
 
 
 public static void main(String[] args) {
