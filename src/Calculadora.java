@@ -446,6 +446,13 @@ public class Calculadora extends JFrame {
                 }
             }
         });
+        Seno.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                fun = "sin";
+                Trigonometria();
+            }
+        });
     }
     public void Trigonometria(){
         if (sexagesRadioButton.isSelected()){
