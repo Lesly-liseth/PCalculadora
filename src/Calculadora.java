@@ -486,7 +486,11 @@ public class Calculadora extends JFrame {
                     entrada.setText(tan+" ");
                     break;
 
-                    
+                case "atan":
+                    v1 = Double.parseDouble(entrada.getText());
+                    salida.setText(" atan( "+v1+" )");
+                    atan = Math.atan(v1)*180/Math.PI;
+                    entrada.setText(atan+" ");
             }
         }
     }
