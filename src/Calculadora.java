@@ -373,6 +373,25 @@ public class Calculadora extends JFrame {
         Porcentaje.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                v2 = Double.parseDouble(entrada.getText());
+                salida.setText(salida.getText()+entrada.getText());
+                entrada.setText((v1*v2)/100+ " ");
+                igual = true;
+            }
+        });
+        //BOTON 1/x
+        a1XButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                v1 = Double.parseDouble(entrada.getText());
+                salida.setText(" "+v1);
+                entrada.setText(1/v1+ " ");
+            }
+        });
+        // CAMBIO DE SIGNO
+        tan1Button1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
 
             }
         });
