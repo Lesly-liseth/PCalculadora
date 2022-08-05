@@ -326,13 +326,7 @@ public class Calculadora extends JFrame {
                         //operaciones(resultado,v2); Metodo a implementar
                     }
                 }
-                tpoperacion = "/";
-            }
-        });
-        Igual.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-
+                tpoperacion = "-";
             }
         });
     }
