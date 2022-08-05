@@ -478,6 +478,14 @@ public class Calculadora extends JFrame {
                 Trigonometria();
             }
         });
+
+        cos1Button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                fun = "acos";
+                Trigonometria();
+            }
+        });
     }
     public void Trigonometria(){
         if (sexagesRadioButton.isSelected()){
