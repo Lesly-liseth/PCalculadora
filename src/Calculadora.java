@@ -486,6 +486,14 @@ public class Calculadora extends JFrame {
                 Trigonometria();
             }
         });
+
+        tan1Button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                fun = "atan";
+                Trigonometria();
+            }
+        });
     }
     public void Trigonometria(){
         if (sexagesRadioButton.isSelected()){
