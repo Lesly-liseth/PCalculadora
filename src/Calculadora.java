@@ -83,6 +83,7 @@ public class Calculadora extends JFrame {
         setContentPane(mainPanel);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
+        Memoria.setVisible(false);
         //NUMEROS (BOTONES)
 
         Cero.addActionListener(new ActionListener() {
@@ -437,9 +438,9 @@ public class Calculadora extends JFrame {
         Retroceso.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (entrada.getText().length()>1) {
+                if (entrada.getText().length()>0) {
                     entrada.setText(entrada.getText().substring(0, entrada.getText().length()-1));
-                    if (entrada.getText().length() == 1){
+                    if (entrada.getText().length() == 0){
                         entrada.setText("0");
                         comenzar = true;
                     }
