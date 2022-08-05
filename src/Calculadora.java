@@ -72,7 +72,7 @@ public class Calculadora extends JFrame {
 
     // VARIABLES
     private boolean igual, comenzar = true, op1, op2;
-    private double x, y, z, sin, cos, tan, ncos, nsin, ntan, mem = 0, resultado, v1, v2;
+    private double x, y, z, sin, cos, tan, acos, asin, atan, mem = 0, resultado, v1, v2;
     private String cad, fun, tpoperacion;
 
     public Calculadora() {
@@ -456,6 +456,13 @@ public class Calculadora extends JFrame {
                     salida.setText(" sin( " + v1 + " )");
                     sin = Math.sin (Math.PI*(v1)/180);
                     entrada.setText(sin + " ");
+                    break;
+
+                case "asin":
+                    v1 = Double.parseDouble(entrada.getText());
+                    salida.setText(" asin( " +v1+ " )");
+                    asin = Math.asin(v1)*180/Math.PI;
+                    entrada.setText(asin+" ");
                     break;
             }
         }
