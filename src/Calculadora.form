@@ -33,7 +33,9 @@
       </component>
       <component id="6b04d" class="javax.swing.JButton" binding="Tangente">
         <constraints>
-          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="78" height="35"/>
+          </grid>
         </constraints>
         <properties>
           <text value="tan"/>
@@ -49,7 +51,9 @@
       </component>
       <component id="681f1" class="javax.swing.JButton" binding="Seno">
         <constraints>
-          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="78" height="35"/>
+          </grid>
         </constraints>
         <properties>
           <text value="sin"/>
@@ -81,7 +85,9 @@
       </component>
       <component id="9a51c" class="javax.swing.JButton" binding="Coseno">
         <constraints>
-          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="78" height="35"/>
+          </grid>
         </constraints>
         <properties>
           <text value="cos"/>
@@ -113,7 +119,9 @@
       </component>
       <component id="85fbc" class="javax.swing.JButton" binding="Porcentaje">
         <constraints>
-          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="78" height="35"/>
+          </grid>
         </constraints>
         <properties>
           <text value="%"/>
@@ -249,7 +257,9 @@
       </component>
       <component id="9c12a" class="javax.swing.JButton" binding="Nueve">
         <constraints>
-          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="78" height="35"/>
+          </grid>
         </constraints>
         <properties>
           <text value="9"/>
@@ -257,7 +267,9 @@
       </component>
       <component id="1a41e" class="javax.swing.JButton" binding="Ocho">
         <constraints>
-          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="78" height="35"/>
+          </grid>
         </constraints>
         <properties>
           <text value="8"/>
@@ -265,7 +277,9 @@
       </component>
       <component id="9c284" class="javax.swing.JButton" binding="Siete">
         <constraints>
-          <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="78" height="35"/>
+          </grid>
         </constraints>
         <properties>
           <text value="7"/>
@@ -351,9 +365,11 @@
           <text value="x³"/>
         </properties>
       </component>
-      <component id="31556" class="javax.swing.JButton" binding="tan1Button1" default-binding="true">
+      <component id="31556" class="javax.swing.JButton" binding="cambiosig">
         <constraints>
-          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="78" height="35"/>
+          </grid>
         </constraints>
         <properties>
           <text value="+/-"/>

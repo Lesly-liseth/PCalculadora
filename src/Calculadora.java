@@ -20,7 +20,7 @@ public class Calculadora extends JFrame {
     private JButton CParentesis;
     private JButton Pi;
     private JButton xButton;
-    private JButton tan1Button1;
+    private JButton cambiosig;
     private JButton logButton1;
     private JButton Porcentaje;
     private JButton xYButton;
@@ -389,7 +389,33 @@ public class Calculadora extends JFrame {
             }
         });
         // CAMBIO DE SIGNO
-        tan1Button1.addActionListener(new ActionListener() {
+        cambiosig.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+               //variables
+               double numero1 = 0, numero2, numero3;
+               numero2 = Double.parseDouble(entrada.getText());
+               numero3 = numero1 - numero2;
+               entrada.setText(numero3+ " ");
+            }
+        });
+        cButton1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+              entrada.setText("0");
+              salida.setText("");
+              comenzar = true;
+              fun = "";
+              op1 = true;
+              op2 = true;
+              igual = true;
+              v1 = 0;
+              v2 = 0;
+              resultado = 0;
+
+            }
+        });
+        CEButton1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
 
