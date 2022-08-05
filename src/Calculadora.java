@@ -326,7 +326,43 @@ public class Calculadora extends JFrame {
                         //operaciones(resultado,v2); Metodo a implementar
                     }
                 }
-                tpoperacion = "-";
+                tpoperacion = "/";
+            }
+            public void operaciones(double v1, double v2){
+                switch(tpoperacion){
+                    case "+":
+                        resultado = v1 + v2;
+                        entrada.setText(resultado+ "");
+                        v1 = Double.parseDouble(entrada.getText());
+                        break;
+                    case "-":
+                        resultado = v1 - v2;
+                        entrada.setText(resultado+ "");
+                        v1 = Double.parseDouble(entrada.getText());
+                        break;
+                    case "*":
+                        resultado = v1 * v2;
+                        entrada.setText(resultado+ "");
+                        v1 = Double.parseDouble(entrada.getText());
+                        break;
+                    case "/":
+                        if (v2 == 0){
+                            entrada.setText("Error");
+                            break;
+                        }else{
+                            resultado = v1 / v2;
+                            entrada.setText(resultado + "");
+                            v1 = Double.parseDouble(entrada.getText());
+                            break;
+                        }
+
+                }
+            }
+        });
+        Igual.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
             }
         });
     }
