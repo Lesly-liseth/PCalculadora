@@ -329,6 +329,12 @@ public class Calculadora extends JFrame {
                 tpoperacion = "/";
             }
         });
+        Igual.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
     }
 
 
