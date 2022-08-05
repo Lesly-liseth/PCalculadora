@@ -418,7 +418,10 @@ public class Calculadora extends JFrame {
         CEButton1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                entrada.setText("0");
+                salida.setText("");
+                comenzar = true;
+                fun = "";
             }
         });
     }
