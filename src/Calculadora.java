@@ -232,8 +232,23 @@ public class Calculadora extends JFrame {
                 comenzar = true;
                 if(op1 == true){
                     v1 = Double.parseDouble(entrada.getText());
-
+                    salida.setText("");
+                    salida.setText(entrada.getText()+ "+");
+                    op1 = false;
                 }
+                else{
+                    if (op2 == true){
+                        v2 = Double.parseDouble(entrada.getText());
+                        salida.setText("");
+                        salida.setText(entrada.getText()+ "+");
+                        op2 = false;
+                    }
+                    else{
+                        salida.setText(entrada.getText()+ "+");
+                        //operaciones(resultado,v2); Metodo a implementar
+                    }
+                }
+                tpoperacion = "+";
             }
         });
     }
