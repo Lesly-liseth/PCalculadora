@@ -72,7 +72,7 @@ public class Calculadora extends JFrame {
 
     // VARIABLES
     private boolean igual, comenzar = true, op1, op2;
-    private double x, y, z, mem = 0, resultado, v1, v2;
+    private double x, y, z, sin, cos, tan, ncos, nsin, ntan, mem = 0, resultado, v1, v2;
     private String cad, fun, tpoperacion;
 
     public Calculadora() {
@@ -448,7 +448,17 @@ public class Calculadora extends JFrame {
         });
     }
     public void Trigonometria(){
+        if (sexagesRadioButton.isSelected()){
+            switch(fun){
 
+                case "sin":
+                    v1 = Double.parseDouble(entrada.getText());
+                    salida.setText(" sin( " + v1 + " )");
+                    sin = Math.sin (Math.PI*(v1)/180);
+                    entrada.setText(sin + " ");
+                    break;
+            }
+        }
     }
     //MÉTODO Operaciones
     public void operaciones(double v1, double v2){
