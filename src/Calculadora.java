@@ -434,6 +434,18 @@ public class Calculadora extends JFrame {
                 fun = "";
             }
         });
+        Retroceso.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (entrada.getText().length()>1) {
+                    entrada.setText(entrada.getText().substring(0, entrada.getText().length()-1));
+                    if (entrada.getText().length() == 1){
+                        entrada.setText("0");
+                        comenzar = true;
+                    }
+                }
+            }
+        });
     }
     public void Trigonometria(){
 
