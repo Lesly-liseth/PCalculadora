@@ -360,7 +360,7 @@ public class Calculadora extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 v1 = Double.parseDouble(entrada.getText());
                 if(v1 >=0){
-                    salida.setText("sqrt( "+v1+" )");
+                    salida.setText("√ "+v1);
                     entrada.setText(Math.sqrt(v1)+" ");
                 }
                 else {

@@ -213,7 +213,9 @@
           <grid row="7" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-14042192"/>
           <font name="Futura Md BT" size="18" style="1"/>
+          <foreground color="-16185079"/>
           <text value="="/>
         </properties>
       </component>
@@ -302,17 +304,10 @@
           </grid>
         </constraints>
         <properties>
+          <background color="-10962245"/>
+          <font name="Futura Md BT" size="14" style="1"/>
+          <foreground color="-16185079"/>
           <text value="+"/>
-        </properties>
-      </component>
-      <component id="29403" class="javax.swing.JButton" binding="Resta">
-        <constraints>
-          <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="78" height="31"/>
-          </grid>
-        </constraints>
-        <properties>
-          <text value="-"/>
         </properties>
       </component>
       <component id="31ac0" class="javax.swing.JButton" binding="Multiplicacion">
@@ -322,6 +317,9 @@
           </grid>
         </constraints>
         <properties>
+          <background color="-10962245"/>
+          <font name="Futura Md BT" size="16" style="1"/>
+          <foreground color="-16185079"/>
           <text value="x"/>
         </properties>
       </component>
@@ -332,6 +330,9 @@
           </grid>
         </constraints>
         <properties>
+          <background color="-10962245"/>
+          <font name="Futura Md BT" size="18" style="1"/>
+          <foreground color="-16185079"/>
           <text value="÷"/>
         </properties>
       </component>
@@ -451,6 +452,19 @@
           <background color="-4283982"/>
           <font name="Futura Md BT" size="16" style="1"/>
           <foreground color="-16053317"/>
+        </properties>
+      </component>
+      <component id="29403" class="javax.swing.JButton" binding="Resta">
+        <constraints>
+          <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="78" height="31"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-10962245"/>
+          <font name="Futura Md BT" size="18" style="1"/>
+          <foreground color="-16185079"/>
+          <text value="-"/>
         </properties>
       </component>
     </children>
