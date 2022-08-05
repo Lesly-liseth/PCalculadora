@@ -471,6 +471,13 @@ public class Calculadora extends JFrame {
                     cos = Math.cos(Math.PI*(v1)/180);
                     entrada.setText(cos+" ");
                     break;
+
+                case "acos":
+                    v1 = Double.parseDouble(entrada.getText());
+                    salida.setText(" acos( "+v1+" )");
+                    asin = Math.acos(v1)*180/Math.PI;
+                    entrada.setText(acos+" ");
+                    break;
             }
         }
     }
