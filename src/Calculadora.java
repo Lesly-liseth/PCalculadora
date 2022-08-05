@@ -470,6 +470,14 @@ public class Calculadora extends JFrame {
                 Trigonometria();
             }
         });
+
+        sin1Button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                fun = "asin";
+                Trigonometria();
+            }
+        });
     }
     public void Trigonometria(){
         if (sexagesRadioButton.isSelected()){
