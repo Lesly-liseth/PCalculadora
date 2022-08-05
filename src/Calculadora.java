@@ -328,37 +328,10 @@ public class Calculadora extends JFrame {
                 }
                 tpoperacion = "/";
             }
-            public void operaciones(double v1, double v2){
-                switch(tpoperacion){
-                    case "+":
-                        resultado = v1 + v2;
-                        entrada.setText(resultado+ "");
-                        v1 = Double.parseDouble(entrada.getText());
-                        break;
-                    case "-":
-                        resultado = v1 - v2;
-                        entrada.setText(resultado+ "");
-                        v1 = Double.parseDouble(entrada.getText());
-                        break;
-                    case "*":
-                        resultado = v1 * v2;
-                        entrada.setText(resultado+ "");
-                        v1 = Double.parseDouble(entrada.getText());
-                        break;
-                    case "/":
-                        if (v2 == 0){
-                            entrada.setText("Error");
-                            break;
-                        }else{
-                            resultado = v1 / v2;
-                            entrada.setText(resultado + "");
-                            v1 = Double.parseDouble(entrada.getText());
-                            break;
-                        }
 
-                }
-            }
         });
+
+
         Igual.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -381,10 +354,60 @@ public class Calculadora extends JFrame {
 
             }
         });
+        //FUNCIONALIDAD RAIZ CUADRADA
+        RaizCuadrada.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                v1 = Double.parseDouble(entrada.getText());
+                if(v1 >=0){
+                    salida.setText("sqrt( "+v1+" )");
+                    entrada.setText(Math.sqrt(v1)+" ");
+                }
+                else {
+                     entrada.setText("Math ERROR");
+                }
+            }
+        });
+
+        // FUNCIONALIDAD BOTON PORCENTAJE
+        Porcentaje.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
     }
 
+    public void operaciones(double v1, double v2){
+        switch(tpoperacion){
+            case "+":
+                resultado = v1 + v2;
+                entrada.setText(resultado+ "");
+                v1 = Double.parseDouble(entrada.getText());
+                break;
+            case "-":
+                resultado = v1 - v2;
+                entrada.setText(resultado+ "");
+                v1 = Double.parseDouble(entrada.getText());
+                break;
+            case "*":
+                resultado = v1 * v2;
+                entrada.setText(resultado+ "");
+                v1 = Double.parseDouble(entrada.getText());
+                break;
+            case "/":
+                if (v2 == 0){
+                    entrada.setText("Error");
+                    break;
+                }else{
+                    resultado = v1 / v2;
+                    entrada.setText(resultado + "");
+                    v1 = Double.parseDouble(entrada.getText());
+                    break;
+                }
 
-
+        }
+    }
 
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
