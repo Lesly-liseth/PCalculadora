@@ -230,14 +230,14 @@ public class Calculadora extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 igual = true;
                 comenzar = true;
-                if(op1 == true){
+                if(op1 = true){
                     v1 = Double.parseDouble(entrada.getText());
                     salida.setText("");
                     salida.setText(entrada.getText()+ "+");
                     op1 = false;
                 }
                 else{
-                    if (op2 == true){
+                    if (op2 = true){
                         v2 = Double.parseDouble(entrada.getText());
                         salida.setText("");
                         salida.setText(entrada.getText()+ "+");
@@ -245,7 +245,7 @@ public class Calculadora extends JFrame {
                     }
                     else{
                         salida.setText(entrada.getText()+ "+");
-                        //operaciones(resultado,v2); Metodo a implementar
+                        operaciones(resultado,v2);
                     }
                 }
                 tpoperacion = "+";
@@ -256,14 +256,14 @@ public class Calculadora extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 igual = true;
                 comenzar = true;
-                if(op1 == true){
+                if(op1 = true){
                     v1 = Double.parseDouble(entrada.getText());
                     salida.setText("");
                     salida.setText(entrada.getText()+ "-");
                     op1 = false;
                 }
                 else{
-                    if (op2 == true){
+                    if (op2 = true){
                         v2 = Double.parseDouble(entrada.getText());
                         salida.setText("");
                         salida.setText(entrada.getText()+ "-");
@@ -271,7 +271,7 @@ public class Calculadora extends JFrame {
                     }
                     else{
                         salida.setText(entrada.getText()+ "-");
-                        //operaciones(resultado,v2); Metodo a implementar
+                        operaciones(resultado,v2);
                     }
                 }
                 tpoperacion = "-";
@@ -282,14 +282,14 @@ public class Calculadora extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 igual = true;
                 comenzar = true;
-                if(op1 == true){
+                if(op1 = true){
                     v1 = Double.parseDouble(entrada.getText());
                     salida.setText("");
                     salida.setText(entrada.getText()+ "*");
                     op1 = false;
                 }
                 else{
-                    if (op2 == true){
+                    if (op2 = true){
                         v2 = Double.parseDouble(entrada.getText());
                         salida.setText("");
                         salida.setText(entrada.getText()+ "*");
@@ -297,7 +297,7 @@ public class Calculadora extends JFrame {
                     }
                     else{
                         salida.setText(entrada.getText()+ "*");
-                        //operaciones(resultado,v2); Metodo a implementar
+                        operaciones(resultado,v2);
                     }
                 }
                 tpoperacion = "*";
@@ -308,14 +308,14 @@ public class Calculadora extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 igual = true;
                 comenzar = true;
-                if(op1 == true){
+                if(op1 = true){
                     v1 = Double.parseDouble(entrada.getText());
                     salida.setText("");
                     salida.setText(entrada.getText()+ "/");
                     op1 = false;
                 }
                 else{
-                    if (op2 == true){
+                    if (op2 = true){
                         v2 = Double.parseDouble(entrada.getText());
                         salida.setText("");
                         salida.setText(entrada.getText()+ "/");
@@ -323,7 +323,7 @@ public class Calculadora extends JFrame {
                     }
                     else{
                         salida.setText(entrada.getText()+ "/");
-                        //operaciones(resultado,v2); Metodo a implementar
+                        operaciones(resultado,v2);
                     }
                 }
                 tpoperacion = "/";
@@ -362,6 +362,22 @@ public class Calculadora extends JFrame {
         Igual.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                igual = true;
+                comenzar = true;
+                if (igual = true){
+                    if (tpoperacion == null){
+                    }
+                    else{
+                        v2 = Double.parseDouble(entrada.getText());
+                        salida.setText(salida.getText()+entrada.getText());
+                        operaciones(v1,v2);
+                        igual = false;
+                    }
+                }
+                else{
+                    salida.setText("");
+                    operaciones(v1,v2);
+                }
 
             }
         });
