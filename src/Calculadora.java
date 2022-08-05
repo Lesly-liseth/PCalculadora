@@ -74,7 +74,7 @@ public class Calculadora extends JFrame {
     public Calculadora() {
 
         setTitle("CALCULADORA");
-        setSize(700, 300);
+        setSize(1000, 500);
         setLocationRelativeTo(null);
         setContentPane(mainPanel);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);

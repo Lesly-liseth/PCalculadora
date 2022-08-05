@@ -15,7 +15,9 @@
           </grid>
         </constraints>
         <properties>
-          <background color="-15015213"/>
+          <background color="-9116985"/>
+          <font name="Futura Md BT" size="20" style="1"/>
+          <foreground color="-16053317"/>
           <text value=""/>
         </properties>
       </component>
@@ -141,6 +143,9 @@
           <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-5746598"/>
+          <font name="Futura Md BT" size="14" style="1"/>
+          <foreground color="-16185079"/>
           <text value="C"/>
         </properties>
       </component>
@@ -149,6 +154,9 @@
           <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-5746598"/>
+          <font name="Futura Md BT" size="14" style="1"/>
+          <foreground color="-16185079"/>
           <text value="CE"/>
         </properties>
       </component>
@@ -205,6 +213,7 @@
           <grid row="7" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Futura Md BT" size="18" style="1"/>
           <text value="="/>
         </properties>
       </component>
@@ -439,8 +448,9 @@
           </grid>
         </constraints>
         <properties>
-          <background color="-15015213"/>
-          <foreground color="-16025413"/>
+          <background color="-4283982"/>
+          <font name="Futura Md BT" size="16" style="1"/>
+          <foreground color="-16053317"/>
         </properties>
       </component>
     </children>
