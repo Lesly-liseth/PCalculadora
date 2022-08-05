@@ -64,6 +64,8 @@ public class Calculadora extends JFrame {
     private JButton eButton;
     private JPanel mainPanel;
     private JTextField salida;
+    private JRadioButton radioButton1;
+    private JRadioButton radioButton2;
 
 
     // VARIABLES
@@ -430,6 +432,9 @@ public class Calculadora extends JFrame {
                 fun = "";
             }
         });
+    }
+    public void Trigonometria(){
+
     }
     //MÉTODO Operaciones
     public void operaciones(double v1, double v2){
