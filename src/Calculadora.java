@@ -374,7 +374,7 @@ public class Calculadora extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 v2 = Double.parseDouble(entrada.getText());
-                salida.setText(salida.getText()+entrada.getText());
+                salida.setText(salida.getText()+" "+entrada.getText()+ "%");
                 entrada.setText((v1*v2)/100+ " ");
                 igual = true;
             }
@@ -399,6 +399,7 @@ public class Calculadora extends JFrame {
                entrada.setText(numero3+ " ");
             }
         });
+        //BORRAR
         cButton1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -415,6 +416,7 @@ public class Calculadora extends JFrame {
 
             }
         });
+        //BORRAR
         CEButton1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -425,7 +427,7 @@ public class Calculadora extends JFrame {
             }
         });
     }
-
+    //MÉTODO
     public void operaciones(double v1, double v2){
         switch(tpoperacion){
             case "+":
