@@ -446,10 +446,19 @@ public class Calculadora extends JFrame {
                 }
             }
         });
+
         Seno.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 fun = "sin";
+                Trigonometria();
+            }
+        });
+
+        Coseno.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                fun = "cos";
                 Trigonometria();
             }
         });
