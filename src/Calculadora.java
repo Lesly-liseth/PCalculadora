@@ -225,6 +225,7 @@ public class Calculadora extends JFrame {
                 }
             }
         });
+        //Funcionalidad del boton Suma
         Suma.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -251,6 +252,7 @@ public class Calculadora extends JFrame {
                 tpoperacion = "+";
             }
         });
+        //Funcionalidad del boton Resta
         Resta.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -277,6 +279,7 @@ public class Calculadora extends JFrame {
                 tpoperacion = "-";
             }
         });
+        //Funcionalidad al boton Multiplicacion
         Multiplicacion.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -303,6 +306,7 @@ public class Calculadora extends JFrame {
                 tpoperacion = "*";
             }
         });
+        //Funcionalidad al boton Division
         Division.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -427,7 +431,7 @@ public class Calculadora extends JFrame {
             }
         });
     }
-    //MÉTODO
+    //MÉTODO Operaciones
     public void operaciones(double v1, double v2){
         switch(tpoperacion){
             case "+":
