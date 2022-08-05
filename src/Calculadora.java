@@ -64,8 +64,10 @@ public class Calculadora extends JFrame {
     private JButton eButton;
     private JPanel mainPanel;
     private JTextField salida;
-    private JRadioButton radioButton1;
-    private JRadioButton radioButton2;
+    private JRadioButton radianesRadioButton;
+    private JRadioButton sexagesRadioButton;
+    private JButton Retroceso;
+    private JLabel Memoria;
 
 
     // VARIABLES

@@ -60,20 +60,21 @@
           <foreground color="-16053317"/>
         </properties>
       </component>
-      <component id="fde70" class="javax.swing.JRadioButton" binding="radioButton2" default-binding="true">
+      <component id="fde70" class="javax.swing.JRadioButton" binding="sexagesRadioButton" default-binding="true">
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="RadioButton"/>
+          <selected value="true"/>
+          <text value="Sexages"/>
         </properties>
       </component>
-      <component id="6e00d" class="javax.swing.JRadioButton" binding="radioButton1" default-binding="true">
+      <component id="6e00d" class="javax.swing.JRadioButton" binding="radianesRadioButton" default-binding="true">
         <constraints>
           <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="RadioButton"/>
+          <text value="Radianes"/>
         </properties>
       </component>
       <component id="9a51c" class="javax.swing.JButton" binding="Coseno">
@@ -186,30 +187,6 @@
           <text value="x^y"/>
         </properties>
       </component>
-      <component id="67013" class="javax.swing.JButton" binding="nButton" default-binding="true">
-        <constraints>
-          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="n!"/>
-        </properties>
-      </component>
-      <component id="dd2a6" class="javax.swing.JButton" binding="Pi">
-        <constraints>
-          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="π"/>
-        </properties>
-      </component>
-      <component id="15907" class="javax.swing.JButton" binding="logButton1" default-binding="true">
-        <constraints>
-          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="log"/>
-        </properties>
-      </component>
       <component id="94ff7" class="javax.swing.JButton" binding="expButton1" default-binding="true">
         <constraints>
           <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
@@ -245,14 +222,6 @@
         </constraints>
         <properties>
           <text value="x³"/>
-        </properties>
-      </component>
-      <component id="35ced" class="javax.swing.JButton" binding="eButton" default-binding="true">
-        <constraints>
-          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="e"/>
         </properties>
       </component>
       <component id="860d6" class="javax.swing.JButton" binding="Punto">
@@ -481,6 +450,54 @@
         </constraints>
         <properties>
           <text value="x²"/>
+        </properties>
+      </component>
+      <component id="67013" class="javax.swing.JButton" binding="nButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="n!"/>
+        </properties>
+      </component>
+      <component id="dd2a6" class="javax.swing.JButton" binding="Pi">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="π"/>
+        </properties>
+      </component>
+      <component id="15907" class="javax.swing.JButton" binding="logButton1" default-binding="true">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="log"/>
+        </properties>
+      </component>
+      <component id="35ced" class="javax.swing.JButton" binding="eButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="e"/>
+        </properties>
+      </component>
+      <component id="989f3" class="javax.swing.JLabel" binding="Memoria">
+        <constraints>
+          <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="M"/>
+        </properties>
+      </component>
+      <component id="9ad2e" class="javax.swing.JButton" binding="Retroceso">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="&lt;---"/>
         </properties>
       </component>
     </children>
