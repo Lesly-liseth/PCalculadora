@@ -478,6 +478,15 @@ public class Calculadora extends JFrame {
                     asin = Math.acos(v1)*180/Math.PI;
                     entrada.setText(acos+" ");
                     break;
+
+                case "tan":
+                    v1 = Double.parseDouble(entrada.getText());
+                    salida.setText(" tan( "+v1+" )");
+                    tan = Math.tan(Math.PI*(v1)/180);
+                    entrada.setText(tan+" ");
+                    break;
+
+                    
             }
         }
     }
