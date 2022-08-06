@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 public class Calculadora extends JFrame {
     private JTextArea entrada;
     private JButton MSButton1;
-    private JButton nButton;
+    private JButton FacButton;
     private JButton Tangente;
     private JButton cButton1;
     private JButton Siete;
@@ -521,7 +521,21 @@ public class Calculadora extends JFrame {
             }
         });
 
+        FacButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                x = 1;
+                v1 = Double.parseDouble(entrada.getText());
+                salida.setText(v1 + "! ");
+                for( y = 1; y <= v1; y++){
+                    x = x*y;
+                }
+                entrada.setText(x + " ");
+            }
+        });
     }
+
+
         public void Trigonometria() {
             if (sexagesRadioButton.isSelected()) {
                 switch (fun) {
@@ -658,6 +672,8 @@ public class Calculadora extends JFrame {
         }
 
     public static void main(String[] args) {
+
+
         Calculadora calculadora = new Calculadora();
     }
 }
