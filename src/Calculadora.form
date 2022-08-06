@@ -179,12 +179,12 @@
           <text value="MS"/>
         </properties>
       </component>
-      <component id="852e2" class="javax.swing.JButton" binding="xYButton" default-binding="true">
+      <component id="852e2" class="javax.swing.JButton" binding="XY">
         <constraints>
           <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="x^y"/>
+          <text value="f"/>
         </properties>
       </component>
       <component id="94ff7" class="javax.swing.JButton" binding="expButton1" default-binding="true">

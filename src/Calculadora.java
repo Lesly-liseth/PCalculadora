@@ -23,7 +23,7 @@ public class Calculadora extends JFrame {
     private JButton cambiosig;
     private JButton logButton1;
     private JButton Porcentaje;
-    private JButton xYButton;
+    private JButton XY;
     private JButton AParentesis;
     private JButton CEButton1;
     private JButton Ocho;
