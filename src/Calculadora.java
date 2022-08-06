@@ -73,7 +73,7 @@ public class Calculadora extends JFrame {
 
     // VARIABLES
     private boolean igual, comenzar = true, op1, op2;
-    private double x, y, z, sin, cos, tan, acos, asin, atan, mem = 0, resultado, v1, v2;
+    private double x, y, z, sin, cos, tan, acos, asin, atan, mem = 0, resultado, v1, v2, a,c;
     private String cad, fun, tpoperacion;
 
     public Calculadora() {
@@ -511,147 +511,154 @@ public class Calculadora extends JFrame {
                 comenzar = true;
             }
         });
+        Cubo.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                v1 = Double.parseDouble(entrada.getText());
+                salida.setText( v1 + " ^3");
+                entrada.setText(Math.pow(v1, 3) + " ");
 
-    public void Trigonometria(){
-        if (sexagesRadioButton.isSelected()){
-            switch(fun){
-
-                case "sin":
-                    v1 = Double.parseDouble(entrada.getText());
-                    salida.setText(" sin( " + v1 + " )");
-                    sin = Math.sin (Math.PI*(v1)/180);
-                    entrada.setText(sin + " ");
-                    break;
-
-                case "asin":
-                    v1 = Double.parseDouble(entrada.getText());
-                    salida.setText(" asin( " +v1+ " )");
-                    asin = Math.asin(v1)*180/Math.PI;
-                    entrada.setText(asin+" ");
-                    break;
-
-                case "cos":
-                    v1 = Double.parseDouble(entrada.getText());
-                    salida.setText(" cos( "+v1+" )");
-                    cos = Math.cos(Math.PI*(v1)/180);
-                    entrada.setText(cos+" ");
-                    break;
-
-                case "acos":
-                    v1 = Double.parseDouble(entrada.getText());
-                    salida.setText(" acos( "+v1+" )");
-                    asin = Math.acos(v1)*180/Math.PI;
-                    entrada.setText(acos+" ");
-                    break;
-
-                case "tan":
-                    v1 = Double.parseDouble(entrada.getText());
-                    salida.setText(" tan( "+v1+" )");
-                    tan = Math.tan(Math.PI*(v1)/180);
-                    entrada.setText(tan+" ");
-                    break;
-
-                case "atan":
-                    v1 = Double.parseDouble(entrada.getText());
-                    salida.setText(" atan( "+v1+" )");
-                    atan = Math.atan(v1)*180/Math.PI;
-                    entrada.setText(atan+" ");
             }
-        }
-        else
-        {
-            if (radianesRadioButton.isSelected()){
-                switch(fun){
+        });
+
+    }
+        public void Trigonometria() {
+            if (sexagesRadioButton.isSelected()) {
+                switch (fun) {
 
                     case "sin":
                         v1 = Double.parseDouble(entrada.getText());
-                        salida.setText(" sinR( " + v1 + " )");
-                        sin = Math.sin (v1);
+                        salida.setText(" sin( " + v1 + " )");
+                        sin = Math.sin(Math.PI * (v1) / 180);
                         entrada.setText(sin + " ");
                         break;
 
                     case "asin":
                         v1 = Double.parseDouble(entrada.getText());
-                        salida.setText(" asinR( " +v1+ " )");
-                        asin = Math.asin(v1);
-                        entrada.setText(asin+" ");
+                        salida.setText(" asin( " + v1 + " )");
+                        asin = Math.asin(v1) * 180 / Math.PI;
+                        entrada.setText(asin + " ");
                         break;
 
                     case "cos":
                         v1 = Double.parseDouble(entrada.getText());
-                        salida.setText(" cosR( "+v1+" )");
-                        cos = Math.cos(v1);
-                        entrada.setText(cos+" ");
+                        salida.setText(" cos( " + v1 + " )");
+                        cos = Math.cos(Math.PI * (v1) / 180);
+                        entrada.setText(cos + " ");
                         break;
 
                     case "acos":
                         v1 = Double.parseDouble(entrada.getText());
-                        salida.setText(" acosR( "+v1+" )");
-                        asin = Math.acos(v1);
-                        entrada.setText(acos+" ");
+                        salida.setText(" acos( " + v1 + " )");
+                        asin = Math.acos(v1) * 180 / Math.PI;
+                        entrada.setText(acos + " ");
                         break;
 
                     case "tan":
                         v1 = Double.parseDouble(entrada.getText());
-                        salida.setText(" tanR( "+v1+" )");
-                        tan = Math.tan(v1);
-                        entrada.setText(tan+" ");
+                        salida.setText(" tan( " + v1 + " )");
+                        tan = Math.tan(Math.PI * (v1) / 180);
+                        entrada.setText(tan + " ");
                         break;
 
                     case "atan":
                         v1 = Double.parseDouble(entrada.getText());
-                        salida.setText(" atanR( "+v1+" )");
-                        atan = Math.atan(v1);
-                        entrada.setText(atan+" ");
+                        salida.setText(" atan( " + v1 + " )");
+                        atan = Math.atan(v1) * 180 / Math.PI;
+                        entrada.setText(atan + " ");
                 }
-            }
+            } else {
+                if (radianesRadioButton.isSelected()) {
+                    switch (fun) {
 
+                        case "sin":
+                            v1 = Double.parseDouble(entrada.getText());
+                            salida.setText(" sinR( " + v1 + " )");
+                            sin = Math.sin(v1);
+                            entrada.setText(sin + " ");
+                            break;
+
+                        case "asin":
+                            v1 = Double.parseDouble(entrada.getText());
+                            salida.setText(" asinR( " + v1 + " )");
+                            asin = Math.asin(v1);
+                            entrada.setText(asin + " ");
+                            break;
+
+                        case "cos":
+                            v1 = Double.parseDouble(entrada.getText());
+                            salida.setText(" cosR( " + v1 + " )");
+                            cos = Math.cos(v1);
+                            entrada.setText(cos + " ");
+                            break;
+
+                        case "acos":
+                            v1 = Double.parseDouble(entrada.getText());
+                            salida.setText(" acosR( " + v1 + " )");
+                            asin = Math.acos(v1);
+                            entrada.setText(acos + " ");
+                            break;
+
+                        case "tan":
+                            v1 = Double.parseDouble(entrada.getText());
+                            salida.setText(" tanR( " + v1 + " )");
+                            tan = Math.tan(v1);
+                            entrada.setText(tan + " ");
+                            break;
+
+                        case "atan":
+                            v1 = Double.parseDouble(entrada.getText());
+                            salida.setText(" atanR( " + v1 + " )");
+                            atan = Math.atan(v1);
+                            entrada.setText(atan + " ");
+                    }
+                }
+
+            }
         }
-    }
-    //MÉTODO Operaciones
-    public void operaciones(double v1, double v2) {
-        switch (tpoperacion) {
-            case "+":
-                resultado = v1 + v2;
-                entrada.setText(resultado + "");
-                v1 = Double.parseDouble(entrada.getText());
-                break;
-            case "-":
-                resultado = v1 - v2;
-                entrada.setText(resultado + "");
-                v1 = Double.parseDouble(entrada.getText());
-                break;
-            case "*":
-                resultado = v1 * v2;
-                entrada.setText(resultado + "");
-                v1 = Double.parseDouble(entrada.getText());
-                break;
-            case "/":
-                if (v2 == 0) {
-                    entrada.setText("Error");
-                    break;
-                } else {
-                    resultado = v1 / v2;
+        //MÉTODO Operaciones
+        public void operaciones ( double v1, double v2){
+            switch (tpoperacion) {
+                case "+":
+                    resultado = v1 + v2;
                     entrada.setText(resultado + "");
                     v1 = Double.parseDouble(entrada.getText());
                     break;
-                }
-                //POTENCIA
-            case "p":
+                case "-":
+                    resultado = v1 - v2;
+                    entrada.setText(resultado + "");
+                    v1 = Double.parseDouble(entrada.getText());
+                    break;
+                case "*":
+                    resultado = v1 * v2;
+                    entrada.setText(resultado + "");
+                    v1 = Double.parseDouble(entrada.getText());
+                    break;
+                case "/":
+                    if (v2 == 0) {
+                        entrada.setText("Error");
+                        break;
+                    } else {
+                        resultado = v1 / v2;
+                        entrada.setText(resultado + "");
+                        v1 = Double.parseDouble(entrada.getText());
+                        break;
+                    }
+                    //POTENCIA
+                case "p":
 
-                resultado = Math.pow(v1, v2);
-                entrada.setText(resultado + " ");
-                break;
-                //CUALQUIER VALOR DE RAIZ
+                    resultado = Math.pow(v1, v2);
+                    entrada.setText(resultado + " ");
+                    break;
 
+
+
+            }
 
         }
 
-    }
-
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
     }
-
 }
+
