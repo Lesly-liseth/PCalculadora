@@ -495,6 +495,22 @@ public class Calculadora extends JFrame {
                 Trigonometria();
             }
         });
+        Pi.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                salida.setText("π ");
+                entrada.setText(Math.PI+" ");
+            }
+        });
+        xButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                v1 = Double.parseDouble(entrada.getText());
+                salida.setText(v1 + " ^ -1");
+                entrada.setText(Math.pow(v1,-1)+ " ");
+
+            }
+        });
     }
     public void Trigonometria(){
         if (sexagesRadioButton.isSelected()){
@@ -541,6 +557,55 @@ public class Calculadora extends JFrame {
                     atan = Math.atan(v1)*180/Math.PI;
                     entrada.setText(atan+" ");
             }
+        }
+        else
+        {
+            if (radianesRadioButton.isSelected()){
+                switch(fun){
+
+                    case "sin":
+                        v1 = Double.parseDouble(entrada.getText());
+                        salida.setText(" sin( " + v1 + " )");
+                        sin = Math.sin (v1);
+                        entrada.setText(sin + " ");
+                        break;
+
+                    case "asin":
+                        v1 = Double.parseDouble(entrada.getText());
+                        salida.setText(" asin( " +v1+ " )");
+                        asin = Math.asin(v1);
+                        entrada.setText(asin+" ");
+                        break;
+
+                    case "cos":
+                        v1 = Double.parseDouble(entrada.getText());
+                        salida.setText(" cos( "+v1+" )");
+                        cos = Math.cos(v1);
+                        entrada.setText(cos+" ");
+                        break;
+
+                    case "acos":
+                        v1 = Double.parseDouble(entrada.getText());
+                        salida.setText(" acos( "+v1+" )");
+                        asin = Math.acos(v1);
+                        entrada.setText(acos+" ");
+                        break;
+
+                    case "tan":
+                        v1 = Double.parseDouble(entrada.getText());
+                        salida.setText(" tan( "+v1+" )");
+                        tan = Math.tan(v1);
+                        entrada.setText(tan+" ");
+                        break;
+
+                    case "atan":
+                        v1 = Double.parseDouble(entrada.getText());
+                        salida.setText(" atan( "+v1+" )");
+                        atan = Math.atan(v1);
+                        entrada.setText(atan+" ");
+                }
+            }
+
         }
     }
     //MÉTODO Operaciones
