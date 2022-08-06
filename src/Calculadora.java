@@ -68,6 +68,7 @@ public class Calculadora extends JFrame {
     private JRadioButton sexagesRadioButton;
     private JButton Retroceso;
     private JLabel Memoria;
+    private JButton yButton;
 
 
     // VARIABLES
@@ -222,10 +223,9 @@ public class Calculadora extends JFrame {
         Punto.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(entrada.getText().contains(".")){
+                if (entrada.getText().contains(".")) {
 
-                }
-                else{
+                } else {
                     entrada.setText(entrada.getText() + ".");
                 }
             }
@@ -236,22 +236,20 @@ public class Calculadora extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 igual = true;
                 comenzar = true;
-                if(op1 = true){
+                if (op1 = true) {
                     v1 = Double.parseDouble(entrada.getText());
                     salida.setText("");
-                    salida.setText(entrada.getText()+ "+");
+                    salida.setText(entrada.getText() + "+");
                     op1 = false;
-                }
-                else{
-                    if (op2 = true){
+                } else {
+                    if (op2 = true) {
                         v2 = Double.parseDouble(entrada.getText());
                         salida.setText("");
-                        salida.setText(entrada.getText()+ "+");
+                        salida.setText(entrada.getText() + "+");
                         op2 = false;
-                    }
-                    else{
-                        salida.setText(entrada.getText()+ "+");
-                        operaciones(resultado,v2);
+                    } else {
+                        salida.setText(entrada.getText() + "+");
+                        operaciones(resultado, v2);
                     }
                 }
                 tpoperacion = "+";
@@ -263,22 +261,20 @@ public class Calculadora extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 igual = true;
                 comenzar = true;
-                if(op1 = true){
+                if (op1 = true) {
                     v1 = Double.parseDouble(entrada.getText());
                     salida.setText("");
-                    salida.setText(entrada.getText()+ "-");
+                    salida.setText(entrada.getText() + "-");
                     op1 = false;
-                }
-                else{
-                    if (op2 = true){
+                } else {
+                    if (op2 = true) {
                         v2 = Double.parseDouble(entrada.getText());
                         salida.setText("");
-                        salida.setText(entrada.getText()+ "-");
+                        salida.setText(entrada.getText() + "-");
                         op2 = false;
-                    }
-                    else{
-                        salida.setText(entrada.getText()+ "-");
-                        operaciones(resultado,v2);
+                    } else {
+                        salida.setText(entrada.getText() + "-");
+                        operaciones(resultado, v2);
                     }
                 }
                 tpoperacion = "-";
@@ -290,22 +286,20 @@ public class Calculadora extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 igual = true;
                 comenzar = true;
-                if(op1 = true){
+                if (op1 = true) {
                     v1 = Double.parseDouble(entrada.getText());
                     salida.setText("");
-                    salida.setText(entrada.getText()+ "*");
+                    salida.setText(entrada.getText() + "*");
                     op1 = false;
-                }
-                else{
-                    if (op2 = true){
+                } else {
+                    if (op2 = true) {
                         v2 = Double.parseDouble(entrada.getText());
                         salida.setText("");
-                        salida.setText(entrada.getText()+ "*");
+                        salida.setText(entrada.getText() + "*");
                         op2 = false;
-                    }
-                    else{
-                        salida.setText(entrada.getText()+ "*");
-                        operaciones(resultado,v2);
+                    } else {
+                        salida.setText(entrada.getText() + "*");
+                        operaciones(resultado, v2);
                     }
                 }
                 tpoperacion = "*";
@@ -317,22 +311,20 @@ public class Calculadora extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 igual = true;
                 comenzar = true;
-                if(op1 = true){
+                if (op1 = true) {
                     v1 = Double.parseDouble(entrada.getText());
                     salida.setText("");
-                    salida.setText(entrada.getText()+ "/");
+                    salida.setText(entrada.getText() + "/");
                     op1 = false;
-                }
-                else{
-                    if (op2 = true){
+                } else {
+                    if (op2 = true) {
                         v2 = Double.parseDouble(entrada.getText());
                         salida.setText("");
-                        salida.setText(entrada.getText()+ "/");
+                        salida.setText(entrada.getText() + "/");
                         op2 = false;
-                    }
-                    else{
-                        salida.setText(entrada.getText()+ "/");
-                        operaciones(resultado,v2);
+                    } else {
+                        salida.setText(entrada.getText() + "/");
+                        operaciones(resultado, v2);
                     }
                 }
                 tpoperacion = "/";
@@ -346,19 +338,17 @@ public class Calculadora extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 igual = true;
                 comenzar = true;
-                if (igual = true){
-                    if (tpoperacion == null){
-                    }
-                    else{
+                if (igual = true) {
+                    if (tpoperacion == null) {
+                    } else {
                         v2 = Double.parseDouble(entrada.getText());
-                        salida.setText(salida.getText()+entrada.getText());
-                        operaciones(v1,v2);
+                        salida.setText(salida.getText() + entrada.getText());
+                        operaciones(v1, v2);
                         igual = false;
                     }
-                }
-                else{
+                } else {
                     salida.setText("");
-                    operaciones(v1,v2);
+                    operaciones(v1, v2);
                 }
 
             }
@@ -368,12 +358,11 @@ public class Calculadora extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 v1 = Double.parseDouble(entrada.getText());
-                if(v1 >=0){
-                    salida.setText("√ "+v1);
-                    entrada.setText(Math.sqrt(v1)+" ");
-                }
-                else {
-                     entrada.setText("Math ERROR");
+                if (v1 >= 0) {
+                    salida.setText("√ " + v1);
+                    entrada.setText(Math.sqrt(v1) + " ");
+                } else {
+                    entrada.setText("Math ERROR");
                 }
             }
         });
@@ -383,8 +372,8 @@ public class Calculadora extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 v2 = Double.parseDouble(entrada.getText());
-                salida.setText(salida.getText()+" "+entrada.getText()+ "%");
-                entrada.setText((v1*v2)/100+ " ");
+                salida.setText(salida.getText() + " " + entrada.getText() + "%");
+                entrada.setText((v1 * v2) / 100 + " ");
                 igual = true;
             }
         });
@@ -393,35 +382,35 @@ public class Calculadora extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 v1 = Double.parseDouble(entrada.getText());
-                salida.setText(" "+v1);
-                entrada.setText(1/v1+ " ");
+                salida.setText(" " + v1);
+                entrada.setText(1 / v1 + " ");
             }
         });
         // CAMBIO DE SIGNO
         cambiosig.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-               //variables
-               double numero1 = 0, numero2, numero3;
-               numero2 = Double.parseDouble(entrada.getText());
-               numero3 = numero1 - numero2;
-               entrada.setText(numero3+ " ");
+                //variables
+                double numero1 = 0, numero2, numero3;
+                numero2 = Double.parseDouble(entrada.getText());
+                numero3 = numero1 - numero2;
+                entrada.setText(numero3 + " ");
             }
         });
         //BORRAR
         cButton1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-              entrada.setText("0");
-              salida.setText("");
-              comenzar = true;
-              fun = "";
-              op1 = true;
-              op2 = true;
-              igual = true;
-              v1 = 0;
-              v2 = 0;
-              resultado = 0;
+                entrada.setText("0");
+                salida.setText("");
+                comenzar = true;
+                fun = "";
+                op1 = true;
+                op2 = true;
+                igual = true;
+                v1 = 0;
+                v2 = 0;
+                resultado = 0;
 
             }
         });
@@ -438,9 +427,9 @@ public class Calculadora extends JFrame {
         Retroceso.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (entrada.getText().length()>0) {
-                    entrada.setText(entrada.getText().substring(0, entrada.getText().length()-1));
-                    if (entrada.getText().length() == 0){
+                if (entrada.getText().length() > 0) {
+                    entrada.setText(entrada.getText().substring(0, entrada.getText().length() - 1));
+                    if (entrada.getText().length() == 0) {
                         entrada.setText("0");
                         comenzar = true;
                     }
@@ -499,7 +488,7 @@ public class Calculadora extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 salida.setText("π ");
-                entrada.setText(Math.PI+" ");
+                entrada.setText(Math.PI + " ");
             }
         });
         xButton.addActionListener(new ActionListener() {
@@ -507,11 +496,22 @@ public class Calculadora extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 v1 = Double.parseDouble(entrada.getText());
                 salida.setText(v1 + " ^ -1");
-                entrada.setText(Math.pow(v1,-1)+ " ");
+                entrada.setText(Math.pow(v1, -1) + " ");
 
             }
         });
-    }
+        XY.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                comenzar = true;
+                v1 = Double.parseDouble(entrada.getText());
+                salida.setText(v1 + " ^ ");
+                tpoperacion = "p";
+                op1 = false;
+                comenzar = true;
+            }
+        });
+
     public void Trigonometria(){
         if (sexagesRadioButton.isSelected()){
             switch(fun){
@@ -565,42 +565,42 @@ public class Calculadora extends JFrame {
 
                     case "sin":
                         v1 = Double.parseDouble(entrada.getText());
-                        salida.setText(" sin( " + v1 + " )");
+                        salida.setText(" sinR( " + v1 + " )");
                         sin = Math.sin (v1);
                         entrada.setText(sin + " ");
                         break;
 
                     case "asin":
                         v1 = Double.parseDouble(entrada.getText());
-                        salida.setText(" asin( " +v1+ " )");
+                        salida.setText(" asinR( " +v1+ " )");
                         asin = Math.asin(v1);
                         entrada.setText(asin+" ");
                         break;
 
                     case "cos":
                         v1 = Double.parseDouble(entrada.getText());
-                        salida.setText(" cos( "+v1+" )");
+                        salida.setText(" cosR( "+v1+" )");
                         cos = Math.cos(v1);
                         entrada.setText(cos+" ");
                         break;
 
                     case "acos":
                         v1 = Double.parseDouble(entrada.getText());
-                        salida.setText(" acos( "+v1+" )");
+                        salida.setText(" acosR( "+v1+" )");
                         asin = Math.acos(v1);
                         entrada.setText(acos+" ");
                         break;
 
                     case "tan":
                         v1 = Double.parseDouble(entrada.getText());
-                        salida.setText(" tan( "+v1+" )");
+                        salida.setText(" tanR( "+v1+" )");
                         tan = Math.tan(v1);
                         entrada.setText(tan+" ");
                         break;
 
                     case "atan":
                         v1 = Double.parseDouble(entrada.getText());
-                        salida.setText(" atan( "+v1+" )");
+                        salida.setText(" atanR( "+v1+" )");
                         atan = Math.atan(v1);
                         entrada.setText(atan+" ");
                 }
@@ -609,38 +609,48 @@ public class Calculadora extends JFrame {
         }
     }
     //MÉTODO Operaciones
-    public void operaciones(double v1, double v2){
-        switch(tpoperacion){
+    public void operaciones(double v1, double v2) {
+        switch (tpoperacion) {
             case "+":
                 resultado = v1 + v2;
-                entrada.setText(resultado+ "");
+                entrada.setText(resultado + "");
                 v1 = Double.parseDouble(entrada.getText());
                 break;
             case "-":
                 resultado = v1 - v2;
-                entrada.setText(resultado+ "");
+                entrada.setText(resultado + "");
                 v1 = Double.parseDouble(entrada.getText());
                 break;
             case "*":
                 resultado = v1 * v2;
-                entrada.setText(resultado+ "");
+                entrada.setText(resultado + "");
                 v1 = Double.parseDouble(entrada.getText());
                 break;
             case "/":
-                if (v2 == 0){
+                if (v2 == 0) {
                     entrada.setText("Error");
                     break;
-                }else{
+                } else {
                     resultado = v1 / v2;
                     entrada.setText(resultado + "");
                     v1 = Double.parseDouble(entrada.getText());
                     break;
                 }
+                //POTENCIA
+            case "p":
+
+                resultado = Math.pow(v1, v2);
+                entrada.setText(resultado + " ");
+                break;
+                //CUALQUIER VALOR DE RAIZ
+
 
         }
+
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Calculadora calculadora = new Calculadora();
     }
 
