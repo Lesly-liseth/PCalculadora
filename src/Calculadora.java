@@ -617,6 +617,13 @@ public class Calculadora extends JFrame {
                 Memoria.setVisible(true);
             }
         });
+        mButton2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                mem = mem + Double.parseDouble(entrada.getText());
+                Memoria.setVisible(true);
+            }
+        });
     }
 
 
