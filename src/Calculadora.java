@@ -542,6 +542,7 @@ public class Calculadora extends JFrame {
             }
         });
 
+        // boton e
         eButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -550,6 +551,7 @@ public class Calculadora extends JFrame {
             }
         });
 
+        //boton raiz cubica
         RaizCubica.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -557,11 +559,12 @@ public class Calculadora extends JFrame {
                 x = 1;
                 y = 3;
                 z = x/y;
-                salida.setText("cuberoot( "+v1+") ");
+                salida.setText("cubica( "+v1+") ");
                 entrada.setText(Math.pow(v1, z)+" ");
             }
         });
 
+        // boton de x elevado al cuadrado
         Cuadrado.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -571,6 +574,7 @@ public class Calculadora extends JFrame {
             }
         });
 
+        //boton del 10 al exponente x
         a10XButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -580,6 +584,7 @@ public class Calculadora extends JFrame {
             }
         });
 
+        //boton exp
         expButton1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -588,6 +593,7 @@ public class Calculadora extends JFrame {
             }
         });
 
+        //boton log
         logButton1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -596,6 +602,7 @@ public class Calculadora extends JFrame {
                 entrada.setText(Math.log(v1)+" ");
             }
         });
+        //boton MC
         MCButton1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -603,6 +610,7 @@ public class Calculadora extends JFrame {
                 Memoria.setVisible(false);
             }
         });
+        //boton MR
         MRButton1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -610,6 +618,7 @@ public class Calculadora extends JFrame {
             }
         });
 
+        //Boton MS
         MSButton1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -617,6 +626,7 @@ public class Calculadora extends JFrame {
                 Memoria.setVisible(true);
             }
         });
+        //Boton M+
         mButton2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -625,6 +635,7 @@ public class Calculadora extends JFrame {
             }
         });
 
+        //Boton M-
         mButton3.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
