@@ -545,6 +545,26 @@ public class Calculadora extends JFrame {
         eButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                salida.setText("E");
+                entrada.setText(Math.E+" ");
+            }
+        });
+
+        RaizCubica.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                v1 = Double.parseDouble(entrada.getText());
+                x = 1;
+                y = 3;
+                z = x/y;
+                salida.setText("cuberoot( "+v1+") ");
+                entrada.setText(Math.pow(v1, z)+" ");
+            }
+        });
+
+        Cuadrado.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
 
             }
         });
