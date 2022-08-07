@@ -596,6 +596,13 @@ public class Calculadora extends JFrame {
                 entrada.setText(Math.log(v1)+" ");
             }
         });
+        MCButton1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                mem = 0;
+                Memoria.setVisible(false);
+            }
+        });
     }
 
 
