@@ -579,6 +579,14 @@ public class Calculadora extends JFrame {
                 entrada.setText(Math.pow(10, v1)+" ");
             }
         });
+
+        expButton1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                v1 = Double.parseDouble(entrada.getText());
+                entrada.setText(Math.exp(v1)+" ");
+            }
+        });
     }
 
 
