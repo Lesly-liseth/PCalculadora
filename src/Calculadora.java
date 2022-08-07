@@ -609,6 +609,14 @@ public class Calculadora extends JFrame {
                 entrada.setText(mem + " ");
             }
         });
+
+        MSButton1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                mem = Double.parseDouble(entrada.getText());
+                Memoria.setVisible(true);
+            }
+        });
     }
 
 
