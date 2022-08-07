@@ -334,6 +334,11 @@ public class Calculadora extends JFrame {
                         salida.setText(entrada.getText()+ "÷");
                         op2 = false;
                     }
+                    else {
+                        salida.setText(entrada.getText()+ "÷");
+                        operaciones(resultado,v2);
+
+                    }
                 }
                 tpoperacion = "/";
             }
