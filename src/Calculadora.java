@@ -570,6 +570,15 @@ public class Calculadora extends JFrame {
                 entrada.setText(Math.pow(v1, 2)+" ");
             }
         });
+
+        a10XButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                v1 = Double.parseDouble(entrada.getText());
+                salida.setText("powten( "+v1+") ");
+                entrada.setText(Math.pow(10, v1)+" ");
+            }
+        });
     }
 
 
