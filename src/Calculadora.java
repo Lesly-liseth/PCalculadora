@@ -565,7 +565,9 @@ public class Calculadora extends JFrame {
         Cuadrado.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                v1 = Double.parseDouble(entrada.getText());
+                salida.setText("sqr( "+v1+") ");
+                entrada.setText(Math.pow(v1, 2)+" ");
             }
         });
     }
