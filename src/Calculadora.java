@@ -603,6 +603,12 @@ public class Calculadora extends JFrame {
                 Memoria.setVisible(false);
             }
         });
+        MRButton1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                entrada.setText(mem + " ");
+            }
+        });
     }
 
 
