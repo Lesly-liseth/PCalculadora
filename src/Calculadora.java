@@ -650,6 +650,32 @@ public class Calculadora extends JFrame {
 
             }
         });
+
+        AParentesis.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (comenzar == true) {
+                    entrada.setText(" ");
+                    entrada.setText("( ");
+                    comenzar = false;
+                } else {
+                    entrada.setText(entrada.getText() + "( ");
+                }
+            }
+        });
+
+        CParentesis.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (comenzar == true) {
+                    entrada.setText(" ");
+                    entrada.setText(" )");
+                    comenzar = false;
+                } else {
+                    entrada.setText(entrada.getText() + " )");
+                }
+            }
+        });
     }
 
 
