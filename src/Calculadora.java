@@ -325,20 +325,16 @@ public class Calculadora extends JFrame {
                         v2 = Double.parseDouble(entrada.getText());
                         salida.setText("");
 
-                        salida.setText(entrada.getText() + "/");
+                        salida.setText(entrada.getText() + "÷");
                         op2 = false;
                     } else {
-                        salida.setText(entrada.getText() + "/");
+                        salida.setText(entrada.getText() + "÷");
                         operaciones(resultado, v2);
 
                         salida.setText(entrada.getText()+ "÷");
                         op2 = false;
                     }
-                    else {
-                        salida.setText(entrada.getText()+ "÷");
-                        operaciones(resultado,v2);
 
-                    }
                 }
                 tpoperacion = "/";
             }
@@ -646,6 +642,12 @@ public class Calculadora extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 mem = mem - Double.parseDouble(entrada.getText());
                 Memoria.setVisible(true);
+            }
+        });
+        xButton4.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
             }
         });
     }
