@@ -473,7 +473,7 @@ public class Calculadora extends JFrame {
         sin1Button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                fun = "asin";
+                fun = "-1sin";
                 Trigonometria();
             }
         });
@@ -481,7 +481,7 @@ public class Calculadora extends JFrame {
         cos1Button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                fun = "acos";
+                fun = "-1cos";
                 Trigonometria();
             }
         });
@@ -489,7 +489,7 @@ public class Calculadora extends JFrame {
         tan1Button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                fun = "atan";
+                fun = "-1tan";
                 Trigonometria();
             }
         });
@@ -570,7 +570,7 @@ public class Calculadora extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 v1 = Double.parseDouble(entrada.getText());
-                salida.setText("sqr( "+v1+") ");
+                salida.setText("^2 ( "+v1+") ");
                 entrada.setText(Math.pow(v1, 2)+" ");
             }
         });
@@ -580,7 +580,7 @@ public class Calculadora extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 v1 = Double.parseDouble(entrada.getText());
-                salida.setText("powten( "+v1+") ");
+                salida.setText("10^x ( "+v1+") ");
                 entrada.setText(Math.pow(10, v1)+" ");
             }
         });
@@ -599,7 +599,7 @@ public class Calculadora extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 v1 = Double.parseDouble(entrada.getText());
-                salida.setText("log( "+v1+") ");
+                salida.setText("log ( "+v1+") ");
                 entrada.setText(Math.log(v1)+" ");
             }
         });
@@ -690,9 +690,9 @@ public class Calculadora extends JFrame {
                         entrada.setText(sin + " ");
                         break;
 
-                    case "asin":
+                    case "-1sin":
                         v1 = Double.parseDouble(entrada.getText());
-                        salida.setText(" asin( " + v1 + " )");
+                        salida.setText(" -1sin( " + v1 + " )");
                         asin = Math.asin(v1) * 180 / Math.PI;
                         entrada.setText(asin + " ");
                         break;
@@ -704,9 +704,9 @@ public class Calculadora extends JFrame {
                         entrada.setText(cos + " ");
                         break;
 
-                    case "acos":
+                    case "-1cos":
                         v1 = Double.parseDouble(entrada.getText());
-                        salida.setText(" acos( " + v1 + " )");
+                        salida.setText(" -1cos( " + v1 + " )");
                         asin = Math.acos(v1) * 180 / Math.PI;
                         entrada.setText(acos + " ");
                         break;
@@ -718,9 +718,9 @@ public class Calculadora extends JFrame {
                         entrada.setText(tan + " ");
                         break;
 
-                    case "atan":
+                    case "-1tan":
                         v1 = Double.parseDouble(entrada.getText());
-                        salida.setText(" atan( " + v1 + " )");
+                        salida.setText(" -1tan( " + v1 + " )");
                         atan = Math.atan(v1) * 180 / Math.PI;
                         entrada.setText(atan + " ");
                 }
@@ -735,9 +735,9 @@ public class Calculadora extends JFrame {
                             entrada.setText(sin + " ");
                             break;
 
-                        case "asin":
+                        case "-1sin":
                             v1 = Double.parseDouble(entrada.getText());
-                            salida.setText(" asinR( " + v1 + " )");
+                            salida.setText(" -1sinR( " + v1 + " )");
                             asin = Math.asin(v1);
                             entrada.setText(asin + " ");
                             break;
@@ -749,9 +749,9 @@ public class Calculadora extends JFrame {
                             entrada.setText(cos + " ");
                             break;
 
-                        case "acos":
+                        case "-1cos":
                             v1 = Double.parseDouble(entrada.getText());
-                            salida.setText(" acosR( " + v1 + " )");
+                            salida.setText(" -1cosR( " + v1 + " )");
                             asin = Math.acos(v1);
                             entrada.setText(acos + " ");
                             break;
@@ -763,9 +763,9 @@ public class Calculadora extends JFrame {
                             entrada.setText(tan + " ");
                             break;
 
-                        case "atan":
+                        case "-1tan":
                             v1 = Double.parseDouble(entrada.getText());
-                            salida.setText(" atanR( " + v1 + " )");
+                            salida.setText(" -1tanR( " + v1 + " )");
                             atan = Math.atan(v1);
                             entrada.setText(atan + " ");
                     }
