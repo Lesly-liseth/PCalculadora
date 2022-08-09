@@ -656,11 +656,12 @@ public class Calculadora extends JFrame {
             }
         });
 
+        //parantesis abrir
         AParentesis.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if (comenzar == true) {
-                    entrada.setText("( ");
+                    entrada.setText(" ");
                     salida.setText("( ");
                     comenzar = false;
                 } else {
@@ -669,6 +670,7 @@ public class Calculadora extends JFrame {
             }
         });
 
+        //parantesis cerrar
         CParentesis.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
