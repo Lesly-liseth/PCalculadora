@@ -679,6 +679,12 @@ public class Calculadora extends JFrame {
         });
 
 
+        xButton4.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
     }
         public void valorAbs(){
         Scanner sc = new Scanner(System.in);double numero;
