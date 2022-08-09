@@ -318,7 +318,7 @@ public class Calculadora extends JFrame {
 
                     salida.setText(entrada.getText() + "/");
 
-                    salida.setText(entrada.getText()+ "÷");
+                    salida.setText(entrada.getText() + "÷");
 
                     op1 = false;
                 } else {
@@ -332,7 +332,7 @@ public class Calculadora extends JFrame {
                         salida.setText(entrada.getText() + "÷");
                         operaciones(resultado, v2);
 
-                        salida.setText(entrada.getText()+ "÷");
+                        salida.setText(entrada.getText() + "÷");
                         op2 = false;
                     }
 
@@ -525,7 +525,7 @@ public class Calculadora extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 v1 = Double.parseDouble(entrada.getText());
-                salida.setText( v1 + " ^3");
+                salida.setText(v1 + " ^3");
                 entrada.setText(Math.pow(v1, 3) + " ");
 
             }
@@ -537,8 +537,8 @@ public class Calculadora extends JFrame {
                 x = 1;
                 v1 = Double.parseDouble(entrada.getText());
                 salida.setText(v1 + "! ");
-                for( y = 1; y <= v1; y++){
-                    x = x*y;
+                for (y = 1; y <= v1; y++) {
+                    x = x * y;
                 }
                 entrada.setText(x + " ");
             }
@@ -549,7 +549,7 @@ public class Calculadora extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 salida.setText("E");
-                entrada.setText(Math.E+" ");
+                entrada.setText(Math.E + " ");
             }
         });
 
@@ -560,9 +560,9 @@ public class Calculadora extends JFrame {
                 v1 = Double.parseDouble(entrada.getText());
                 x = 1;
                 y = 3;
-                z = x/y;
-                salida.setText("cubica( "+v1+") ");
-                entrada.setText(Math.pow(v1, z)+" ");
+                z = x / y;
+                salida.setText("cubica( " + v1 + ") ");
+                entrada.setText(Math.pow(v1, z) + " ");
             }
         });
 
@@ -571,8 +571,8 @@ public class Calculadora extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 v1 = Double.parseDouble(entrada.getText());
-                salida.setText("^2 ( "+v1+") ");
-                entrada.setText(Math.pow(v1, 2)+" ");
+                salida.setText("^2 ( " + v1 + ") ");
+                entrada.setText(Math.pow(v1, 2) + " ");
             }
         });
 
@@ -581,8 +581,8 @@ public class Calculadora extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 v1 = Double.parseDouble(entrada.getText());
-                salida.setText("10^x ( "+v1+") ");
-                entrada.setText(Math.pow(10, v1)+" ");
+                salida.setText("10^x ( " + v1 + ") ");
+                entrada.setText(Math.pow(10, v1) + " ");
             }
         });
 
@@ -591,7 +591,7 @@ public class Calculadora extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 v1 = Double.parseDouble(entrada.getText());
-                entrada.setText(Math.exp(v1)+" ");
+                entrada.setText(Math.exp(v1) + " ");
             }
         });
 
@@ -600,8 +600,8 @@ public class Calculadora extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 v1 = Double.parseDouble(entrada.getText());
-                salida.setText("log ( "+v1+") ");
-                entrada.setText(Math.log(v1)+" ");
+                salida.setText("log ( " + v1 + ") ");
+                entrada.setText(Math.log(v1) + " ");
             }
         });
         //boton MC
@@ -645,15 +645,15 @@ public class Calculadora extends JFrame {
                 Memoria.setVisible(true);
             }
         });
-        
-        
+
+
         //boton valor absoluto
         xButton4.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 v1 = Double.parseDouble(entrada.getText());
-                salida.setText("| |" +v1  );
-                entrada.setText(Math.abs(v1));
+                salida.setText("| |" + v1);
+                entrada.setText(String.valueOf(Math.abs(v1)));
             }
         });
 
@@ -682,7 +682,7 @@ public class Calculadora extends JFrame {
                 }
             }
         });
-
+    }
    
         public void Trigonometria() {
             if (sexagesRadioButton.isSelected()) {
