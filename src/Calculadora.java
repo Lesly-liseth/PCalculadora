@@ -665,7 +665,7 @@ public class Calculadora extends JFrame {
                     salida.setText("( ");
                     comenzar = false;
                 } else {
-                    entrada.setText(salida.getText() + "( ");
+                    entrada.setText("( ");
                 }
             }
         });
@@ -675,11 +675,11 @@ public class Calculadora extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if (comenzar == true) {
-                    entrada.setText(v1+" ");
+                    entrada.setText(" ");
                     salida.setText(" )");
                     comenzar = false;
                 } else {
-                    entrada.setText(salida.getText() + " )");
+                    entrada.setText( " )");
                 }
             }
         });
