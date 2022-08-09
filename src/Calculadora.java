@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Scanner;
 
 public class Calculadora extends JFrame {
     private JTextArea entrada;
@@ -679,8 +680,17 @@ public class Calculadora extends JFrame {
 
 
     }
-
-
+        public void valorAbs(){
+        Scanner sc = new Scanner(System.in);double numero;
+        System.out.println("Valor absoluto");
+        System.out.println("Digite el numero a calcular");
+        numero = sc.nextDouble();
+        double resultado = (Math.abs(numero));
+        System.out.println("El valor absoluto de  " + numero + " es " + resultado);
+        
+        }
+        
+   
         public void Trigonometria() {
             if (sexagesRadioButton.isSelected()) {
                 switch (fun) {
