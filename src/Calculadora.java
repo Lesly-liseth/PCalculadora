@@ -648,6 +648,9 @@ public class Calculadora extends JFrame {
         xButton4.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                v1 = Double.parseDouble(entrada.getText());
+                salida.setText("| | ( "+v1+") ");
+                entrada.setText(Math.abs(v1));
 
             }
         });
