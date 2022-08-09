@@ -645,13 +645,15 @@ public class Calculadora extends JFrame {
                 Memoria.setVisible(true);
             }
         });
+        
+        
+        //boton valor absoluto
         xButton4.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 v1 = Double.parseDouble(entrada.getText());
-                salida.setText("| | ( "+v1+") ");
+                salida.setText("| |" +v1  );
                 entrada.setText(Math.abs(v1));
-
             }
         });
 
@@ -680,15 +682,6 @@ public class Calculadora extends JFrame {
                 }
             }
         });
-
-        //valor absoluto boton
-        xButton4.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                
-            }
-        });
-    }
 
    
         public void Trigonometria() {
