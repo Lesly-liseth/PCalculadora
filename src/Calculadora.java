@@ -660,8 +660,8 @@ public class Calculadora extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if (comenzar == true) {
-                    entrada.setText(" ");
-                    salida.setText("( ");
+                    entrada.setText("( ");
+                    salida.setText("( "+v1);
                     comenzar = false;
                 } else {
                     entrada.setText(entrada.getText() + "( ");
@@ -674,7 +674,7 @@ public class Calculadora extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 if (comenzar == true) {
                     entrada.setText(" ");
-                    salida.setText(" )");
+                    salida.setText(" )"+tpoperacion);
                     comenzar = false;
                 } else {
                     entrada.setText(entrada.getText() + " )");
@@ -682,7 +682,7 @@ public class Calculadora extends JFrame {
             }
         });
     }
-   
+
         public void Trigonometria() {
             if (sexagesRadioButton.isSelected()) {
                 switch (fun) {
