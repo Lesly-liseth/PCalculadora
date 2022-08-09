@@ -682,6 +682,9 @@ public class Calculadora extends JFrame {
         Scanner sc = new Scanner(System.in);double numero;
         System.out.println("Valor absoluto");
         System.out.println("Digite el numero a calcular");
+        numero = sc.nextDouble();
+        double resultado = (Math.abs(numero));
+        System.out.println("El valor absoluto de  " + numero + " es " + resultado);
         
         }
         
