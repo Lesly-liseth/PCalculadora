@@ -662,7 +662,7 @@ public class Calculadora extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 if (comenzar == true) {
                     entrada.setText(" ");
-                    entrada.setText("( ");
+                    salida.setText("( ");
                     comenzar = false;
                 } else {
                     entrada.setText(entrada.getText() + "( ");
@@ -675,7 +675,7 @@ public class Calculadora extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 if (comenzar == true) {
                     entrada.setText(" ");
-                    entrada.setText(" )");
+                    salida.setText(" )");
                     comenzar = false;
                 } else {
                     entrada.setText(entrada.getText() + " )");
