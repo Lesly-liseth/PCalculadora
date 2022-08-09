@@ -648,6 +648,9 @@ public class Calculadora extends JFrame {
         xButton4.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                v1 = Double.parseDouble(entrada.getText());
+                salida.setText("| | ( "+v1+") ");
+                entrada.setText(Math.abs(v1));
 
             }
         });
@@ -678,24 +681,15 @@ public class Calculadora extends JFrame {
             }
         });
 
-
+        //valor absoluto boton
         xButton4.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                
             }
         });
     }
-        public void valorAbs(){
-        Scanner sc = new Scanner(System.in);double numero;
-        System.out.println("Valor absoluto");
-        System.out.println("Digite el numero a calcular");
-        numero = sc.nextDouble();
-        double resultado = (Math.abs(numero));
-        System.out.println("El valor absoluto de  " + numero + " es " + resultado);
-        
-        }
-        
+
    
         public void Trigonometria() {
             if (sexagesRadioButton.isSelected()) {
