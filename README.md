@@ -33,3 +33,53 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##. Por ultimo fue la creacion de la clase main.
+![image](https://user-images.githubusercontent.com/85316345/183801505-cfc47538-5a81-4091-9e62-82d1ab1aa7c3.png)
+
+
+
+
