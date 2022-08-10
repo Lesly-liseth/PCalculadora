@@ -68,7 +68,7 @@
         </constraints>
         <properties>
           <selected value="true"/>
-          <text value="Sexages"/>
+          <text value="Grados"/>
         </properties>
       </component>
       <component id="6e00d" class="javax.swing.JRadioButton" binding="radianesRadioButton" default-binding="true">
