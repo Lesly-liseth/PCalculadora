@@ -1,5 +1,6 @@
 # PCalculadora
- Creacion de una calculadora completa
+ Creacion de una calculadora científica. 
+ 
 1. Realizacion de la interfaz grafica de nuestra calculadora.
 ![image](https://user-images.githubusercontent.com/85316345/183799012-7c4c032a-94ef-49d8-81c8-e2d3b9d878aa.png)
 2. Colocar los correspondientes nombres de los campo para mejor comprension y evitar confusion.
@@ -100,9 +101,11 @@ En los sihuientes codigos realizados de las operaciones basicas , se utiliza el 
 Esto logramos con la ayuda del condicional if - else y dentro del mismo un case.
 48. Hicimos la realizacion de un "case", para el metodo delas operaciones.
 ![image](https://user-images.githubusercontent.com/85316345/183808510-948c5a79-6946-4199-b53b-30a0c6f2c2f3.png)
-49. Por ultimo fue la creacion de la clase main.
+49. Por ultimo fue la creacion de la clase Main.
 ![image](https://user-images.githubusercontent.com/85316345/183801505-cfc47538-5a81-4091-9e62-82d1ab1aa7c3.png)
 
+Enlace al video : 
 
+    https://youtu.be/jbYdfcZego0
 
 
