@@ -52,8 +52,30 @@ En los sihuientes codigos realizados de las operaciones basicas , se utiliza el 
 ![image](https://user-images.githubusercontent.com/85316345/183804939-8c53e487-a41e-4a65-a7cc-6fbc404f4a7d.png)
 26. Damos la funcionalidad al boton de la funcion tangente.
 ![image](https://user-images.githubusercontent.com/85316345/183805041-9b1785d9-7fa8-4590-b7ce-9327659d1829.png)
-27. l
+27. Damos la funcionalidad a los botones de
 ![image](https://user-images.githubusercontent.com/85316345/183805729-fab1791f-1444-4c8a-b883-49fbbf495dc4.png)
+28. Damos la funcionalidad al boton PI.
+![image](https://user-images.githubusercontent.com/85316345/183806923-2c572c93-1971-4b4e-890e-dc164ef97aa4.png)
+29. Damos la funcionalidad al boton X que es 
+![image](https://user-images.githubusercontent.com/85316345/183807000-1182dc4d-9cd7-4ef5-879e-2062c15651e2.png)
+30. Damos la funcionalidad al boton XY
+![image](https://user-images.githubusercontent.com/85316345/183807076-70133975-5b69-4b4f-b098-4bb8e3fa138f.png)
+31. Damos la funcionalidad al boton cubo
+![image](https://user-images.githubusercontent.com/85316345/183807118-0a3c14c9-7972-4264-8be6-4fafcdc3eac3.png)
+32. Damos la funcionalidad al boton de factorial.
+![image](https://user-images.githubusercontent.com/85316345/183807234-62416bce-81d0-40e5-97d4-889095829b96.png)
+33. Damos la funcionalidad al boton e
+![image](https://user-images.githubusercontent.com/85316345/183807377-c04c5c99-5dbf-439a-9910-53e6f627067e.png)
+34. Damos la funcionalidad al boton par ala funcion de raiz cubica
+![image](https://user-images.githubusercontent.com/85316345/183807418-ef779841-4dc3-45c2-b84c-fa22eff27a4c.png)
+35. 
+
+
+
+
+
+
+
 
 
 
