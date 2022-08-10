@@ -68,6 +68,8 @@ public class Calculadora extends JFrame {
     private JRadioButton sexagesRadioButton;
     private JButton Retroceso;
     private JLabel Memoria;
+    private JButton sumaCuboButton;
+    private JButton cuadradoPerfectoButton;
     private JButton yButton;
 
 
@@ -656,33 +658,30 @@ public class Calculadora extends JFrame {
             }
         });
 
-        //parantesis abrir
-        AParentesis.addActionListener(new ActionListener() {
+        cuadradoPerfectoButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (comenzar == true) {
-                    entrada.setText(" ");
-                    salida.setText("( ");
-                    comenzar = false;
-                } else {
-                    entrada.setText("( ");
-                }
+                v1 = Double.parseDouble(entrada.getText());
+                v2 = Double.parseDouble(entrada.getText());
+                salida.setText("( "+v1+"+"+v2+")²");
+                entrada.setText(((v1*v1)+(2*v1*v2)+(v2*v2))+ " ");
+                igual = true;
+
             }
         });
 
-        //parantesis cerrar
-        CParentesis.addActionListener(new ActionListener() {
+        sumaCuboButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (comenzar == true) {
-                    entrada.setText(" ");
-                    salida.setText(" )");
-                    comenzar = false;
-                } else {
-                    entrada.setText( " )");
-                }
+                v1 = Double.parseDouble(entrada.getText());
+                v2 = Double.parseDouble(entrada.getText());
+                salida.setText("( "+v1+"³" + "+"+v2+"³)");
+                entrada.setText((v1+v2)*((v1*v1)-(v1*v2)+(v2*v2))+" ");
+                igual = true;
             }
         });
+
+
     }
 
         public void Trigonometria() {
