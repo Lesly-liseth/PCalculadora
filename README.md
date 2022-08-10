@@ -1,5 +1,7 @@
 # PCalculadora
- Creacion de una calculadora completa
+ Creacion de una calculadora cientifica completa
+ Link de la explicacion de nuestra calculadora:
+ -
 1. Realizacion de la interfaz grafica de nuestra calculadora.
 ![image](https://user-images.githubusercontent.com/85316345/183799012-7c4c032a-94ef-49d8-81c8-e2d3b9d878aa.png)
 2. Colocar los correspondientes nombres de los campo para mejor comprension y evitar confusion.
