@@ -661,6 +661,7 @@ public class Calculadora extends JFrame {
         cuadradoPerfectoButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
                 v1 = Double.parseDouble(entrada.getText());
                 v2 = Double.parseDouble(entrada.getText());
                 salida.setText("( "+v1+"+"+v2+")²");
@@ -673,11 +674,13 @@ public class Calculadora extends JFrame {
         sumaCuboButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
                 v1 = Double.parseDouble(entrada.getText());
                 v2 = Double.parseDouble(entrada.getText());
                 salida.setText("( "+v1+"³" + "+"+v2+"³)");
                 entrada.setText((v1+v2)*((v1*v1)-(v1*v2)+(v2*v2))+" ");
                 igual = true;
+
             }
         });
 
