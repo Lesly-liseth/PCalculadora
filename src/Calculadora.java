@@ -549,7 +549,7 @@ public class Calculadora extends JFrame {
         eButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                salida.setText("E");
+                salida.setText("e");
                 entrada.setText(Math.E + " ");
             }
         });
