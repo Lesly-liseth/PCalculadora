@@ -31,16 +31,16 @@ En los sihuientes codigos realizados de las operaciones basicas , se utiliza el 
 ![image](https://user-images.githubusercontent.com/85316345/183800997-3f165f71-70b8-4da5-922b-a79220b7de73.png)
 15. Damos funcionalidad al Igual
 ![image](https://user-images.githubusercontent.com/85316345/183801035-b606e186-ebba-4fa0-9ae4-156e330efeb2.png)
-16. d
-
-17.c
-
-18. d
-
-19.x
-
-20. d
-
+16. Damos la funcionalidad al boton de la raiz cuadrad.
+![image](https://user-images.githubusercontent.com/85316345/183802250-71f9eea5-aa0e-49d0-9d10-67b3cc0f86db.png)
+17.Damos la funcionalidad al boton de porcentaje
+![image](https://user-images.githubusercontent.com/85316345/183802274-d417a5bd-9da6-48e7-b3b5-70f9df62a2ea.png)
+18. Damos la funcionalidad al boton de  (a1XButton)
+![image](https://user-images.githubusercontent.com/85316345/183802353-09399f1b-981f-44d1-8b67-f0d54b26c289.png)
+19.Damos la funcionalidad al boton de  (cambiosig)
+![image](https://user-images.githubusercontent.com/85316345/183802417-dee8af35-5413-470b-808c-2fbf84374e6f.png)
+20. Damos la funcionalidad al boton de borrar (C)
+![image](https://user-images.githubusercontent.com/85316345/183802535-3aede767-30c7-4ebe-bfff-8ed489c457b2.png)
 21. d
 
 22. d
