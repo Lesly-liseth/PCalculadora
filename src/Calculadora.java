@@ -662,10 +662,13 @@ public class Calculadora extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 if (comenzar == true) {
                     entrada.setText(" ");
+                    entrada.setText("( ");
+                    salida.setText(" ");
                     salida.setText("( ");
                     comenzar = false;
                 } else {
                     entrada.setText("( ");
+
                 }
             }
         });
@@ -676,10 +679,14 @@ public class Calculadora extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 if (comenzar == true) {
                     entrada.setText(" ");
-                    salida.setText(" )");
+                    entrada.setText(") ");
+                    salida.setText(" ");
+                    salida.setText(") ");
+
                     comenzar = false;
                 } else {
                     entrada.setText( " )");
+
                 }
             }
         });
