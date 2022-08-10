@@ -17,14 +17,14 @@ public class Calculadora extends JFrame {
     private JButton Nueve;
     private JButton Seis;
     private JButton Tres;
-    private JButton CParentesis;
+
     private JButton Pi;
     private JButton xButton;
     private JButton cambiosig;
     private JButton logButton1;
     private JButton Porcentaje;
     private JButton XY;
-    private JButton AParentesis;
+
     private JButton CEButton1;
     private JButton Ocho;
     private JButton Dos;
