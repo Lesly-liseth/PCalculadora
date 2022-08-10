@@ -52,6 +52,9 @@ En los sihuientes codigos realizados de las operaciones basicas , se utiliza el 
 ![image](https://user-images.githubusercontent.com/85316345/183804939-8c53e487-a41e-4a65-a7cc-6fbc404f4a7d.png)
 26. Damos la funcionalidad al boton de la funcion tangente.
 ![image](https://user-images.githubusercontent.com/85316345/183805041-9b1785d9-7fa8-4590-b7ce-9327659d1829.png)
+27. l
+![image](https://user-images.githubusercontent.com/85316345/183805729-fab1791f-1444-4c8a-b883-49fbbf495dc4.png)
+
 
 
 
