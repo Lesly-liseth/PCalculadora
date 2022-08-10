@@ -19,6 +19,7 @@
 9. Damos funcionalidad al boton punto (.).
 ![image](https://user-images.githubusercontent.com/85316345/183800526-7b6ccf5c-0ce1-4ddf-911d-1899660f36d5.png)
 10. Damos la funcionalidad a cada uno de las operaciones basicas con el igual.
+En los sihuientes codigos realizados de las operaciones basicas , se utiliza el mismo esqueleto del codigo  con las respectivas varibles de entrada y salida , con la ayuda de los condicionales if y else.
 ![image](https://user-images.githubusercontent.com/85316345/183801097-5100ef12-b9b9-4941-a170-c38c9e83a2b9.png)
 11. Damos funcionalidad a la suma.
 ![image](https://user-images.githubusercontent.com/85316345/183800759-3b18632f-e66f-4e04-8dae-55f0a95ef4eb.png)
@@ -30,48 +31,49 @@
 ![image](https://user-images.githubusercontent.com/85316345/183800997-3f165f71-70b8-4da5-922b-a79220b7de73.png)
 15. Damos funcionalidad al Igual
 ![image](https://user-images.githubusercontent.com/85316345/183801035-b606e186-ebba-4fa0-9ae4-156e330efeb2.png)
+16. d
 
+17.c
 
+18. d
 
+19.x
 
+20. d
 
+21. d
 
+22. d
 
+23. d
 
+24. d
 
+25. d
 
+26. d
 
+27. d
 
+28. d
 
+29. d
 
+30. d
 
+31. d
 
+32. d
 
+33. d
 
+34. d
 
+35. d
 
+36. d
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+37. 
 
 
 
