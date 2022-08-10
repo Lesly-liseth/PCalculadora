@@ -71,26 +71,10 @@ En los sihuientes codigos realizados de las operaciones basicas , se utiliza el 
 ![image](https://user-images.githubusercontent.com/85316345/183807377-c04c5c99-5dbf-439a-9910-53e6f627067e.png)
 34. Damos la funcionalidad al boton par ala funcion de raiz cubica
 ![image](https://user-images.githubusercontent.com/85316345/183807418-ef779841-4dc3-45c2-b84c-fa22eff27a4c.png)
-<<<<<<< HEAD
 
 
+#.Por ultimo fue la creacion de la clase main.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##. Por ultimo fue la creacion de la clase main.
-=======
 35. Damos la funcionalidad al boton par ala funcion de x elevado al cuadrado
 ![image](https://user-images.githubusercontent.com/85316345/183807704-6928aee9-8379-45b6-bf9e-c92fbaead0cb.png)
 36. Damos funcionalidad al boton de 10 con el exponente x
@@ -124,9 +108,10 @@ Esto logramos con la ayuda del condicional if - else y dentro del mismo un case.
 48. Hicimos la realizacion de un "case", para el metodo delas operaciones.
 ![image](https://user-images.githubusercontent.com/85316345/183808510-948c5a79-6946-4199-b53b-30a0c6f2c2f3.png)
 49. Por ultimo fue la creacion de la clase main.
->>>>>>> 438409541f9aa4eb5f242225b9b59c78e34ecefc
 ![image](https://user-images.githubusercontent.com/85316345/183801505-cfc47538-5a81-4091-9e62-82d1ab1aa7c3.png)
 
+Enlace al video: 
 
+    https://youtu.be/jbYdfcZego0
 
 
