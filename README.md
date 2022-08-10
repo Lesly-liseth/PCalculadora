@@ -68,23 +68,39 @@ En los sihuientes codigos realizados de las operaciones basicas , se utiliza el 
 ![image](https://user-images.githubusercontent.com/85316345/183807377-c04c5c99-5dbf-439a-9910-53e6f627067e.png)
 34. Damos la funcionalidad al boton par ala funcion de raiz cubica
 ![image](https://user-images.githubusercontent.com/85316345/183807418-ef779841-4dc3-45c2-b84c-fa22eff27a4c.png)
-35. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##. Por ultimo fue la creacion de la clase main.
+35. Damos la funcionalidad al boton par ala funcion de x elevado al cuadrado
+![image](https://user-images.githubusercontent.com/85316345/183807704-6928aee9-8379-45b6-bf9e-c92fbaead0cb.png)
+36. Damos funcionalidad al boton de 10 con el exponente x
+![image](https://user-images.githubusercontent.com/85316345/183807765-cd5f4932-e8f4-44d6-884f-7b47e7be9395.png)
+37. Damos funcionalidad al boton de exponencial con el apoyo de Math.exp
+![image](https://user-images.githubusercontent.com/85316345/183807794-16ac8d22-1e0c-4771-b488-cd02abbdc7a3.png)
+38. Damos la funcionalidad al boton de logaritmo
+![image](https://user-images.githubusercontent.com/85316345/183807826-4dd53e99-b9c3-4992-aa9c-2ef462053a4a.png)
+39. Damos funcionalidad al boton de Boton MC
+![image](https://user-images.githubusercontent.com/85316345/183807876-60b9b354-9334-4ab0-bbec-9e994ac1a6be.png)
+40. mDamos funcionalidad al boton de Boton MR
+![image](https://user-images.githubusercontent.com/85316345/183807906-b29b7883-a085-4af4-b03a-01755d5800c1.png)
+41. Damos funcionalidad al boton de Boton MS
+![image](https://user-images.githubusercontent.com/85316345/183807928-96b329bc-5a59-4914-b33e-3d076c09720d.png)
+42. Damos funcionalidad al boton de Boton M+
+![image](https://user-images.githubusercontent.com/85316345/183807975-0c9feb22-be3f-472b-a83f-42593139f5b7.png)
+43. Damos funcionalidad al boton de Boton M-
+![image](https://user-images.githubusercontent.com/85316345/183808017-d2faa869-b3e8-49ae-b715-38df8f7bef21.png)
+44. Damos funcionalidad al boton de valor absoluto.
+![image](https://user-images.githubusercontent.com/85316345/183808076-aa57134a-3c83-43ab-95f0-47536575021b.png)
+45. Damos funcionalidad al boton de cuadrado perfecto.
+![image](https://user-images.githubusercontent.com/85316345/183808391-a462c543-179a-4246-8f0b-5a6518e605a7.png)
+46. Damos funcionalidad al boton de suma de cubo
+![image](https://user-images.githubusercontent.com/85316345/183808421-c9443985-8d2c-4c45-a9d7-6205e02ade78.png)
+47. Denomkinamos una clase publica llamada Trigonometria donde va a constar de dos funciones:
+    la primera funcion va a ser la funcionalidad del boton Sexagesimal.
+![image](https://user-images.githubusercontent.com/85316345/183808459-247b0932-3428-45c1-8dcd-c8291f222dd8.png)
+    la segunda funcion va a ser la funcionalidad del boton de Radianes.
+![image](https://user-images.githubusercontent.com/85316345/183808476-e5273f2b-e60c-426f-b478-bd2bba33e916.png)
+Esto logramos con la ayuda del condicional if - else y dentro del mismo un case.
+48. Hicimos la realizacion de un "case", para el metodo delas operaciones.
+![image](https://user-images.githubusercontent.com/85316345/183808510-948c5a79-6946-4199-b53b-30a0c6f2c2f3.png)
+49. Por ultimo fue la creacion de la clase main.
 ![image](https://user-images.githubusercontent.com/85316345/183801505-cfc47538-5a81-4091-9e62-82d1ab1aa7c3.png)
 
 
