@@ -18,4 +18,18 @@
 ![image](https://user-images.githubusercontent.com/85316345/183800331-e9bb09e8-bec2-4719-b044-c33f2501eb81.png)
 9. Damos funcionalidad al boton punto (.).
 ![image](https://user-images.githubusercontent.com/85316345/183800526-7b6ccf5c-0ce1-4ddf-911d-1899660f36d5.png)
+10. Damos la funcionalidad a cada uno de las operaciones basicas con el igual.
+![image](https://user-images.githubusercontent.com/85316345/183801097-5100ef12-b9b9-4941-a170-c38c9e83a2b9.png)
+11. Damos funcionalidad a la suma.
+![image](https://user-images.githubusercontent.com/85316345/183800759-3b18632f-e66f-4e04-8dae-55f0a95ef4eb.png)
+12. Damos funcionalidad a la Resta
+![image](https://user-images.githubusercontent.com/85316345/183800834-8c2a5e20-2997-46b8-b5ba-333298f37e99.png)
+13. Damos funcionalidad a la Multi
+![image](https://user-images.githubusercontent.com/85316345/183800866-e688c813-b6a3-496c-b00f-a8f4f2f872db.png)
+14. Damos funcionalidad a laDivision
+![image](https://user-images.githubusercontent.com/85316345/183800997-3f165f71-70b8-4da5-922b-a79220b7de73.png)
+15. Damos funcionalidad al Igual
+![image](https://user-images.githubusercontent.com/85316345/183801035-b606e186-ebba-4fa0-9ae4-156e330efeb2.png)
+
+
 
