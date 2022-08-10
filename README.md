@@ -5,5 +5,4 @@
 2. Colocar los correspondientes nombres de los campo para mejor comprension y evitar confusion.
 ![image](https://user-images.githubusercontent.com/85316345/183799125-ee56c83c-1838-4c4e-aacb-02ceda86d454.png)
 3. En la clase publica de calculadora colocamos la extension
-![image](https://user-images.githubusercontent.com/85316345/183799228-83cbbbbf-c024-4862-954f-37a92b8e50e6.png)
-4.
+![image](https://user-images.githubusercontent.com/85316345/183799547-6ddce10e-cd70-4c7b-9571-1bd5de9edd75.png)
