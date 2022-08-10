@@ -41,6 +41,18 @@ En los sihuientes codigos realizados de las operaciones basicas , se utiliza el 
 ![image](https://user-images.githubusercontent.com/85316345/183802417-dee8af35-5413-470b-808c-2fbf84374e6f.png)
 20. Damos la funcionalidad al boton de borrar (C)
 ![image](https://user-images.githubusercontent.com/85316345/183802535-3aede767-30c7-4ebe-bfff-8ed489c457b2.png)
+21. Damos la funcionalidad al boton de borrar (CE)
+![image](https://user-images.githubusercontent.com/85316345/183804014-5ce8f5d6-71ad-4214-b380-28adc96b4ca1.png)
+22. Damos la funcionalidad al boton de retroseso.
+![image](https://user-images.githubusercontent.com/85316345/183804357-58472076-681c-44a0-8d12-229457897ff4.png)
+23. Damos funcionalidad a las funciones trigonometricas.
+24. Damos la funcionalidad al boton de la funcion seno.
+![image](https://user-images.githubusercontent.com/85316345/183804681-40899f45-e49b-4906-879a-30387eaf127f.png)
+25. Damos la funcionalidad al boton de la funcion coseno.
+![image](https://user-images.githubusercontent.com/85316345/183804939-8c53e487-a41e-4a65-a7cc-6fbc404f4a7d.png)
+26. Damos la funcionalidad al boton de la funcion tangente.
+![image](https://user-images.githubusercontent.com/85316345/183805041-9b1785d9-7fa8-4590-b7ce-9327659d1829.png)
+
 
 
 
