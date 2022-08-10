@@ -68,8 +68,7 @@ En los sihuientes codigos realizados de las operaciones basicas , se utiliza el 
 ![image](https://user-images.githubusercontent.com/85316345/183807377-c04c5c99-5dbf-439a-9910-53e6f627067e.png)
 34. Damos la funcionalidad al boton par ala funcion de raiz cubica
 ![image](https://user-images.githubusercontent.com/85316345/183807418-ef779841-4dc3-45c2-b84c-fa22eff27a4c.png)
-35. Enlace de video de Youtube:
-    https://youtu.be/jbYdfcZego0
+
 
 
 
@@ -89,6 +88,6 @@ En los sihuientes codigos realizados de las operaciones basicas , se utiliza el 
 ##. Por ultimo fue la creacion de la clase main.
 ![image](https://user-images.githubusercontent.com/85316345/183801505-cfc47538-5a81-4091-9e62-82d1ab1aa7c3.png)
 
-
+35. Enlace de video de Youtube: https://youtu.be/jbYdfcZego0
 
 
