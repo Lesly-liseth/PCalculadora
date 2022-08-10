@@ -316,17 +316,13 @@ public class Calculadora extends JFrame {
                 if (op1 = true) {
                     v1 = Double.parseDouble(entrada.getText());
                     salida.setText("");
-
                     salida.setText(entrada.getText() + "/");
-
                     salida.setText(entrada.getText() + "÷");
-
                     op1 = false;
                 } else {
                     if (op2 = true) {
                         v2 = Double.parseDouble(entrada.getText());
                         salida.setText("");
-
                         salida.setText(entrada.getText() + "÷");
                         op2 = false;
                     } else {
@@ -336,7 +332,6 @@ public class Calculadora extends JFrame {
                         salida.setText(entrada.getText() + "÷");
                         op2 = false;
                     }
-
                 }
                 tpoperacion = "/";
             }
@@ -364,6 +359,7 @@ public class Calculadora extends JFrame {
 
             }
         });
+
         //FUNCIONALIDAD RAIZ CUADRADA
         RaizCuadrada.addActionListener(new ActionListener() {
             @Override
@@ -815,9 +811,6 @@ public class Calculadora extends JFrame {
                     resultado = Math.pow(v1, v2);
                     entrada.setText(resultado + " ");
                     break;
-
-
-
             }
 
         }
